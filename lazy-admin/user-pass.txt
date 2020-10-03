@@ -1,0 +1,32 @@
+pass: Password123
+
+user: manager
+
+=============================================================================================
+
+cookie
+
+[
+    {
+        "name": "sweetrice",
+        "value": "87lm226mp0rcv3q4g765mb5i53",
+        "domain": "10.10.127.151",
+        "hostOnly": true,
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "session": true,
+        "firstPartyDomain": "",
+        "storeId": null
+    }
+]
+
+=================================================================================================
+
+ cat mysql_login.txt
+cat mysql_login.txt
+user: rice
+pass: randompass
+
+
