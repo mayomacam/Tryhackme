@@ -1,0 +1,12 @@
+basterd : superduperp@$$
+stoner : superduperp@$$no1knows
+
+public $password = 'passwordz';
+
+$2y$10$ABCDEFGHIJKLMNOPQRSTUOiAi7OcdE4zRCh6NcGWusEcNPtq6/w8
+$2y$04$usesomesillystringfore7hnbRJHxXVLeakoG8K30oukPsA.ztMG
+
+7017fe127670faddb25f3a893a36229c:eCU2KtKahxQIMH5i3nwc05zVTBtZXbVV
+7017fe127670faddb25f3a893a36229c:eCU2KtKahxQIMH5i3nwc05zVTBtZXbVV
+
+$P$D6vpNa203LlaQUah3KcVQIhgFZ4E6o1
