@@ -1,0 +1,56 @@
+====================================( Interesting Files )=====================================
+[+] SUID - Check easy privesc, exploits and write perms
+[i] https://book.hacktricks.xyz/linux-unix/privilege-escalation#commands-with-sudo-and-suid-commands
+/snap/core/8268/bin[1;31m/mount		--->	Apple_Mac_OSX(Lion)_Kernel_xnu-1699.32.7_except_xnu-1699.24.8[0m
+/snap/core/8268/bin[1;32m/ping[0m
+/snap/core/8268/bin[1;32m/ping6[0m
+/snap/core/8268/bin[1;32m/su[0m
+/snap/core/8268/bin[1;31m/umount		--->	BSD/Linux(08-1996)[0m
+/snap/core/8268/usr/bin[1;31m/chfn		--->	SuSE_9.3/10[0m
+/snap/core/8268/usr/bin[1;32m/chsh[0m
+/snap/core/8268/usr/bin[1;32m/gpasswd[0m
+/snap/core/8268/usr/bin[1;31m/newgrp		--->	HP-UX_10.20[0m
+/snap/core/8268/usr/bin[1;31m/passwd		--->	Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)[0m
+/snap/core/8268/usr/bin[1;31m/sudo		--->	/sudo$[0m
+/snap/core/8268/usr/lib/dbus-1.0[1;32m/dbus-daemon-launch-helper[0m
+/snap/core/8268/usr/lib/openssh[1;32m/ssh-keysign[0m
+/snap/core/8268/usr/lib/snapd[1;32m/snap-confine[0m
+/snap/core/8268/usr/sbin[1;31m/pppd		--->	Apple_Mac_OSX_10.4.8(05-2007)[0m
+/snap/core/9066/bin[1;31m/mount		--->	Apple_Mac_OSX(Lion)_Kernel_xnu-1699.32.7_except_xnu-1699.24.8[0m
+/snap/core/9066/bin[1;32m/ping[0m
+/snap/core/9066/bin[1;32m/ping6[0m
+/snap/core/9066/bin[1;32m/su[0m
+/snap/core/9066/bin[1;31m/umount		--->	BSD/Linux(08-1996)[0m
+/snap/core/9066/usr/bin[1;31m/chfn		--->	SuSE_9.3/10[0m
+/snap/core/9066/usr/bin[1;32m/chsh[0m
+/snap/core/9066/usr/bin[1;32m/gpasswd[0m
+/snap/core/9066/usr/bin[1;31m/newgrp		--->	HP-UX_10.20[0m
+/snap/core/9066/usr/bin[1;31m/passwd		--->	Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)[0m
+/snap/core/9066/usr/bin[1;31m/sudo		--->	/sudo$[0m
+/snap/core/9066/usr/lib/dbus-1.0[1;32m/dbus-daemon-launch-helper[0m
+/snap/core/9066/usr/lib/openssh[1;32m/ssh-keysign[0m
+/snap/core/9066/usr/lib/snapd[1;32m/snap-confine[0m
+/snap/core/9066/usr/sbin[1;31m/pppd		--->	Apple_Mac_OSX_10.4.8(05-2007)[0m
+/bin[1;31m/umount		--->	BSD/Linux(08-1996)[0m
+/bin[1;32m/fusermount[0m
+/bin[1;32m/ping[0m
+/bin[1;31m/mount		--->	Apple_Mac_OSX(Lion)_Kernel_xnu-1699.32.7_except_xnu-1699.24.8[0m
+/bin[1;32m/su[0m
+/usr/lib/x86_64-linux-gnu/lxc[1;32m/lxc-user-nic[0m
+/usr/lib/dbus-1.0[1;32m/dbus-daemon-launch-helper[0m
+/usr/lib/snapd[1;32m/snap-confine[0m
+/usr/lib/policykit-1[1;32m/polkit-agent-helper-1[0m
+/usr/lib/eject[1;32m/dmcrypt-get-device[0m
+/usr/lib/openssh[1;32m/ssh-keysign[0m
+/usr/bin[1;31m/passwd		--->	Apple_Mac_OSX(03-2006)/Solaris_8/9(12-2004)/SPARC_8/9/Sun_Solaris_2.3_to_2.5.1(02-1997)[0m
+/usr/bin[1;31;103m/env[0m
+/usr/bin[1;32m/gpasswd[0m
+/usr/bin[1;32m/newuidmap[0m
+/usr/bin[1;31m/newgrp		--->	HP-UX_10.20[0m
+/usr/bin[1;32m/chsh[0m
+/usr/bin[1;32m/newgidmap[0m
+/usr/bin[1;31m/chfn		--->	SuSE_9.3/10[0m
+/usr/bin[1;31m/sudo		--->	/sudo$[0m
+/usr/bin[1;32m/traceroute6.iputils[0m
+/usr/bin[1;31m/at		--->	RTru64_UNIX_4.0g(CVE-2002-1614)[0m
+/usr/bin[1;31m/pkexec		--->	Linux4.10_to_5.1.17(CVE-2019-13272)/rhel_6(CVE-2011-1485)[0m
