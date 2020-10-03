@@ -1,0 +1,58 @@
+https://pastebin.com/wphPq0Aa
+
+Passphrase: SG01Ul80X1A0NTVtaHA0NTMh
+decode:-  Hm5R_4_P455mhp453!
+
+Key: Q2ljYWRh
+decode:- Cicada
+
+using vignere cipher again encode decode passphrase using decode key.
+
+Ju5T_4_P455phr453!
+
+
+https://imgur.com/a/c0ZSZga
+
+using hint i got try to find original cicada tools for use
+with that we use outguess tool.
+
+using outguess we got data.
+
+
+#https://www.boxentriq.com/code-breaking/cicada-3301-first-puzzle-walkthrough
+after getting hash we try to check hash type and it was sha-512.
+usind md5hashing.net
+
+https://pastebin.com/6FNiVLh5
+
+got book 
+name: the book of law
+it's a txt file.
+
+next-link.txt
+for line number using this with python program use this:
+5 14 25 3 14 25 / / 4 0 6 28 7 24 / -1 -1 20 8 -2 0 0
+
+after decoding book code....
+https://bit.ly/!!pwyNH
+
+it didn't work we can't reach anywhere.
+so again read message.txt it according to that when i encounter negative number,
+as page number i have to consider maybe line number as our string.....
+
+with that : new link:-
+
+https://bit.ly/39pw2NH
+
+means -1 = 3 in revese for 23 means 32
+for -2 = 2 mean in 24 is 42
+
+
+https://soundcloud.com/user-984804993/the-instar-emergence
+
+username:- filthyjapanophile
+
+after-decode.jpg
+
+
+The Instar Emergence

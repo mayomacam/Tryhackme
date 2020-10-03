@@ -1,0 +1,85 @@
+┌─[mayomacam@parrot]─[~/tryhackme/cicada]
+└──╼ $python3 num.py
+enter string : Had! The manifestation of Nuit.
+enter word number : 5
+h
+enter string : The unveiling of the company of heaven.
+enter word number : 14
+t
+enter string : Every man and every woman is a star.
+enter word number : 25
+t
+enter string : Help me, o warrior lord of Thebes, in my unveiling before the Children of men!
+enter word number : 3
+p
+enter string : Be thou Hadit, my secret centre, my heart & my tongue!
+enter word number : 14
+s
+enter string : Let my servants be few & secret: they shall rule the many & the known.
+ enter word number : 25
+:
+enter string : /
+enter word number : 0
+/
+enter string : /
+enter word number : 0
+/
+enter string : I am above you and in you. My ecstasy is in yours. My joy is to see your joy.
+enter word number : 4
+b
+enter string : I am above you and in you. My ecstasy is in yours. My joy is to see your joy.
+enter word number : 0
+I
+enter string : Above, the gemmed azure is
+enter word number : 6
+t
+enter string : Every man and every woman is a star.
+enter word number : 28
+.
+enter string : O azure-lidded woman, bend upon them!
+enter word number : 7
+l
+enter string : Now, therefore, I am known to ye by my name Nuit, and to him by a secret name which I will give him when at last he knoweth
+enter word number : 24
+y
+enter string : /
+enter word number : 0
+/
+enter string : But whoso availeth in this, let him be the chief of all!
+enter word number : -1
+!
+enter string :  azure-lidded woman, bend upon them!
+enter word number : -1
+!
+enter string : But whoso availeth in this, let him be the chief of all!
+enter word number : -2
+l
+enter string : azure-lidded woman, bend upon them!
+enter word number : -2
+m
+enter string : The unveiling of the company of heaven.
+enter word number : 20
+p
+enter string : The Khabs is in the Khu, not the Khu in the Khabs.
+enter word number : 8
+i
+enter string : I am Nuit, and my word is six and fifty.
+enter word number : -2
+y
+enter string : I am Nuit, and my word is six and fifty.
+enter word number : -3
+t
+enter string : Now, therefore, I am known to ye by my name Nuit, and
+enter word number : 0
+N
+enter string : He must teach; but he may make severe the ordeals.
+enter word number : 0
+H
+enter string : 
+enter word number : 
+Traceback (most recent call last):
+  File "num.py", line 5, in <module>
+    b=int(input("enter word number : "))
+ValueError: invalid literal for int() with base 10: ''
+┌─[✗]─[mayomacam@parrot]─[~/tryhackme/cicada]
+└──╼ $
