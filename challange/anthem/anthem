@@ -1,0 +1,119 @@
+# Anthem is windows challange.
+
+# enumration
+### Let's start with nmap .
+
+```sh
+┌─[mayomacam@parrot]─[~]
+└──╼ $sudo nmap -Pn --min-rate 1000 -p- 10.10.45.71
+[sudo] password for mayomacam: 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-03 09:47 IST
+Warning: 10.10.45.71 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.10.45.71
+Host is up (0.42s latency).
+Not shown: 50731 closed ports, 14791 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+47001/tcp open  winrm
+49664/tcp open  unknown
+49665/tcp open  unknown
+49666/tcp open  unknown
+49667/tcp open  unknown
+49670/tcp open  unknown
+49671/tcp open  unknown
+49672/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 387.83 seconds
+
+┌─[mayomacam@parrot]─[~]
+└──╼ $nmap -A -sC -sV -sT -Pn -vv -p80,135,139,445,3389,47001,49664,49665,49666,49667,49670,49671,49672 10.10.45.71
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-08-03 09:56 IST
+
+PORT      STATE SERVICE       REASON  VERSION
+80/tcp    open  http          syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 4 disallowed entries 
+|_/bin/ /config/ /umbraco/ /umbraco_client/
+|_http-title: Anthem.com - Welcome to our blog
+135/tcp   open  msrpc         syn-ack Microsoft Windows RPC
+139/tcp   open  netbios-ssn   syn-ack Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds? syn-ack
+3389/tcp  open  ms-wbt-server syn-ack Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: WIN-LU09299160F
+|   NetBIOS_Domain_Name: WIN-LU09299160F
+|   NetBIOS_Computer_Name: WIN-LU09299160F
+|   DNS_Domain_Name: WIN-LU09299160F
+|   DNS_Computer_Name: WIN-LU09299160F
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-08-03T04:27:35+00:00
+| ssl-cert: Subject: commonName=WIN-LU09299160F
+| Issuer: commonName=WIN-LU09299160F
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-04-04T22:56:38
+| Not valid after:  2020-10-04T22:56:38
+| MD5:   2814 61de 95b7 e9b5 4789 3027 7f1f 60d2
+| SHA-1: d47d 2a8f 6143 b820 936e 4120 cdd1 9ddc 5385 d285
+| -----BEGIN CERTIFICATE-----
+| MIIC4jCCAcqgAwIBAgIQObhN9c8QnIVGx+ZslzEOmzANBgkqhkiG9w0BAQsFADAa
+| MRgwFgYDVQQDEw9XSU4tTFUwOTI5OTE2MEYwHhcNMjAwNDA0MjI1NjM4WhcNMjAx
+| MDA0MjI1NjM4WjAaMRgwFgYDVQQDEw9XSU4tTFUwOTI5OTE2MEYwggEiMA0GCSqG
+| SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDA4MPIi4yCYJlBv6vwXF5lu5NbQCPQxk4q
+| 7lJsJSvTRSIFi2fVl3l+rWTr69mutnVqo+bMilJorN2B6DqsCJBV+7pITFSICM6b
+| +G/sOEblVust2tUU8NLbAiBH9oXhF0P5dIhMzRC4pcZjhCRR+IcOjnABTCkdAchD
+| Mf4XQJx6GZOXBCBMXGW/vCKZ0q8gti7Hxs36W1ctbj8/i5obd0k0BonMlvRwKxvi
+| 7SS+3NrBpc4XivD23YIqCNzErOB19DV3JqZMvbE+NhLEQA51Au2svYwgoJcIIyEC
+| HBuINXeFBB+p5dMwp4wppkHN0CuquUyCBZvIPlDW8SAOAc5tgUOJAgMBAAGjJDAi
+| MBMGA1UdJQQMMAoGCCsGAQUFBwMBMAsGA1UdDwQEAwIEMDANBgkqhkiG9w0BAQsF
+| AAOCAQEAAziR6P3nN9/EKLhZqJKgkWP9FyNr9CusD78wem1C5fn9h7SjS1PQEhn1
+| Gi50rlcUmII4E8Bnv6g/1QZnZIsPtVzO3bokQfbhTEzWOQ8RScB3ZQ+Tg7xM4duA
+| NZdzR1/hjOOmPBV4ih3+AKmbEZ63V3PuJOn2+0/NsGXzGKhaNhlAof58lXkXrt9x
+| DvmpyfER7oq/3+kPQhXlNK7VZ/dp26BLFQT12be1yyeVck2n/90pXTxV/COaIdsF
+| q7RJPVO+4FCua77sUUSV9E5CL3oOFJT5MjkAMEkoKsU9InWHhA5w+ndQqDgXIb40
+| 7b3pD6AiS/ZEvSpzCyeVnDprZxVIaQ==
+|_-----END CERTIFICATE-----
+|_ssl-date: 2020-08-03T04:27:44+00:00; -3s from scanner time.
+47001/tcp open  http          syn-ack Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49665/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49666/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49667/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49670/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49671/tcp open  msrpc         syn-ack Microsoft Windows RPC
+49672/tcp open  msrpc         syn-ack Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2s, deviation: 0s, median: -3s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 64701/tcp): CLEAN (Couldn't connect)
+|   Check 2 (port 6333/tcp): CLEAN (Couldn't connect)
+|   Check 3 (port 10550/udp): CLEAN (Timeout)
+|   Check 4 (port 58816/udp): CLEAN (Failed to receive data)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-08-03T04:27:37
+|_  start_date: N/A
+
+Nmap done: 1 IP address (1 host up) scanned in 76.21 seconds
+```
+### we got some open ports and one key. winrm is enabled and robot file contain quite interesting data.
+### let's run dirsearch , gobuster and wfuzz on website.
+[dirsearch](./2.png)
+[gobuster](./3.png)
+[wfuzz](./4.png)
+
+### 

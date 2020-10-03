@@ -1,0 +1,14 @@
+POST /umbraco/backoffice/UmbracoApi/Authentication/PostLogin HTTP/1.1
+Host: 10.10.230.239
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: application/json, text/plain, */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json;charset=utf-8
+Content-Length: 47
+Origin: http://10.10.230.239
+DNT: 1
+Connection: close
+Referer: http://10.10.230.239/umbraco/
+
+{"username":"jd@anthem.com","password":"12345"}
