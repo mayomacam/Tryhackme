@@ -1,0 +1,128 @@
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP0x64
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64_24000
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64_23418
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP0x64
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win7SP1x64_24000
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+
+**************************************************
+Instantiating KDBG using: Kernel AS Win7SP1x64 (6.1.7601 64bit)
+Offset (V)                    : 0xf800028420a0
+Offset (P)                    : 0x28420a0
+KDBG owner tag check          : True
+Profile suggestion (KDBGHeader): Win2008R2SP1x64_23418
+Version64                     : 0xf80002842068 (Major: 15, Minor: 7601)
+Service Pack (CmNtCSDVersion) : 1
+Build string (NtBuildLab)     : 7601.18409.amd64fre.win7sp1_gdr.
+PsActiveProcessHead           : 0xfffff80002878590 (29 processes)
+PsLoadedModuleList            : 0xfffff80002896890 (142 modules)
+KernelBase                    : 0xfffff80002653000 (Matches MZ: True)
+Major (OptionalHeader)        : 6
+Minor (OptionalHeader)        : 1
+KPCR                          : 0xfffff80002843d00 (CPU 0)
+

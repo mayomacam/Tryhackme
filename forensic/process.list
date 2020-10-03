@@ -1,0 +1,31 @@
+Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+------------------ -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0xfffffa8001252040 System                    4      0     88      624 ------      0 2019-05-03 06:32:24 UTC+0000                                 
+0xfffffa800234d8a0 smss.exe                268      4      2       29 ------      0 2019-05-03 06:32:24 UTC+0000                                 
+0xfffffa8002264550 csrss.exe               360    352      9      363      0      0 2019-05-03 06:32:34 UTC+0000                                 
+0xfffffa80027d67d0 csrss.exe               408    400      7      162      1      0 2019-05-03 06:32:35 UTC+0000                                 
+0xfffffa8002b601c0 wininit.exe             416    352      3       76      0      0 2019-05-03 06:32:35 UTC+0000                                 
+0xfffffa8002b71680 winlogon.exe            444    400      3      111      1      0 2019-05-03 06:32:35 UTC+0000                                 
+0xfffffa8002c69b30 services.exe            504    416      6      184      0      0 2019-05-03 06:32:36 UTC+0000                                 
+0xfffffa80027d9b30 lsass.exe               512    416      6      534      0      0 2019-05-03 06:32:37 UTC+0000                                 
+0xfffffa80027d81f0 lsm.exe                 520    416     10      143      0      0 2019-05-03 06:32:37 UTC+0000                                 
+0xfffffa80029cd3e0 svchost.exe             628    504      9      345      0      0 2019-05-03 06:32:48 UTC+0000                                 
+0xfffffa8002d38b30 VBoxService.ex          688    504     12      135      0      0 2019-05-03 06:32:48 UTC+0000                                 
+0xfffffa8002a1bb30 svchost.exe             752    504      7      235      0      0 2019-05-02 18:02:51 UTC+0000                                 
+0xfffffa8002d70650 svchost.exe             852    504     22      473      0      0 2019-05-02 18:02:51 UTC+0000                                 
+0xfffffa8002d9c780 svchost.exe             892    504     17      427      0      0 2019-05-02 18:02:51 UTC+0000                                 
+0xfffffa8002dbe9e0 svchost.exe             920    504     29      878      0      0 2019-05-02 18:02:51 UTC+0000                                 
+0xfffffa8002e3db30 svchost.exe             400    504     10      281      0      0 2019-05-02 18:02:56 UTC+0000                                 
+0xfffffa8002e57890 svchost.exe            1004    504     20      379      0      0 2019-05-02 18:02:56 UTC+0000                                 
+0xfffffa8002dfdab0 spoolsv.exe            1140    504     12      279      0      0 2019-05-02 18:02:57 UTC+0000                                 
+0xfffffa8002f2cb30 svchost.exe            1268    504     17      297      0      0 2019-05-02 18:02:59 UTC+0000                                 
+0xfffffa8002f81460 svchost.exe            1368    504     20      295      0      0 2019-05-02 18:02:59 UTC+0000                                 
+0xfffffa8003148b30 taskhost.exe           1788    504      8      159      1      0 2019-05-02 18:03:09 UTC+0000                                 
+0xfffffa8003172b30 explorer.exe           1860   1756     19      645      1      0 2019-05-02 18:03:09 UTC+0000                                 
+0xfffffa800315eb30 dwm.exe                1896    892      3       69      1      0 2019-05-02 18:03:09 UTC+0000                                 
+0xfffffa800300d700 VBoxTray.exe           1600   1860     13      141      1      0 2019-05-02 18:03:25 UTC+0000                                 
+0xfffffa8003367060 SearchIndexer.         2180    504     11      629      0      0 2019-05-02 18:03:32 UTC+0000                                 
+0xfffffa80033f6060 WmiPrvSE.exe           2876    628      5      113      0      0 2019-05-02 18:03:55 UTC+0000                                 
+0xfffffa8003162060 svchost.exe            1820    504     11      317      0      0 2019-05-02 18:05:09 UTC+0000                                 
+0xfffffa8003371540 wmpnetwk.exe           2464    504     14      440      0      0 2019-05-02 18:05:10 UTC+0000                                 
+0xfffffa80014eeb30 taskhost.exe           1148    504      8      176      0      0 2019-05-02 18:09:58 UTC+0000                                 

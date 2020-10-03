@@ -1,0 +1,873 @@
+Pid      Process              Block              Variable                       Value
+-------- -------------------- ------------------ ------------------------------ -----
+     268 smss.exe             0x0000000000411320 Path                           C:\Windows\System32
+     268 smss.exe             0x0000000000411320 SystemDrive                    C:
+     268 smss.exe             0x0000000000411320 SystemRoot                     C:\Windows
+     360 csrss.exe            0x0000000000031320 ComSpec                        C:\Windows\system32\cmd.exe
+     360 csrss.exe            0x0000000000031320 FP_NO_HOST_CHECK               NO
+     360 csrss.exe            0x0000000000031320 NUMBER_OF_PROCESSORS           1
+     360 csrss.exe            0x0000000000031320 OS                             Windows_NT
+     360 csrss.exe            0x0000000000031320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     360 csrss.exe            0x0000000000031320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     360 csrss.exe            0x0000000000031320 PROCESSOR_ARCHITECTURE         AMD64
+     360 csrss.exe            0x0000000000031320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     360 csrss.exe            0x0000000000031320 PROCESSOR_LEVEL                6
+     360 csrss.exe            0x0000000000031320 PROCESSOR_REVISION             2a07
+     360 csrss.exe            0x0000000000031320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     360 csrss.exe            0x0000000000031320 SystemDrive                    C:
+     360 csrss.exe            0x0000000000031320 SystemRoot                     C:\Windows
+     360 csrss.exe            0x0000000000031320 TEMP                           C:\Windows\TEMP
+     360 csrss.exe            0x0000000000031320 TMP                            C:\Windows\TEMP
+     360 csrss.exe            0x0000000000031320 USERNAME                       SYSTEM
+     360 csrss.exe            0x0000000000031320 windir                         C:\Windows
+     360 csrss.exe            0x0000000000031320 windows_tracing_flags          3
+     360 csrss.exe            0x0000000000031320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     408 csrss.exe            0x0000000000321320 ComSpec                        C:\Windows\system32\cmd.exe
+     408 csrss.exe            0x0000000000321320 FP_NO_HOST_CHECK               NO
+     408 csrss.exe            0x0000000000321320 NUMBER_OF_PROCESSORS           1
+     408 csrss.exe            0x0000000000321320 OS                             Windows_NT
+     408 csrss.exe            0x0000000000321320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     408 csrss.exe            0x0000000000321320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     408 csrss.exe            0x0000000000321320 PROCESSOR_ARCHITECTURE         AMD64
+     408 csrss.exe            0x0000000000321320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     408 csrss.exe            0x0000000000321320 PROCESSOR_LEVEL                6
+     408 csrss.exe            0x0000000000321320 PROCESSOR_REVISION             2a07
+     408 csrss.exe            0x0000000000321320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     408 csrss.exe            0x0000000000321320 SystemDrive                    C:
+     408 csrss.exe            0x0000000000321320 SystemRoot                     C:\Windows
+     408 csrss.exe            0x0000000000321320 TEMP                           C:\Windows\TEMP
+     408 csrss.exe            0x0000000000321320 TMP                            C:\Windows\TEMP
+     408 csrss.exe            0x0000000000321320 USERNAME                       SYSTEM
+     408 csrss.exe            0x0000000000321320 windir                         C:\Windows
+     408 csrss.exe            0x0000000000321320 windows_tracing_flags          3
+     408 csrss.exe            0x0000000000321320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     416 wininit.exe          0x000000000045ba10 ALLUSERSPROFILE                C:\ProgramData
+     416 wininit.exe          0x000000000045ba10 CommonProgramFiles             C:\Program Files\Common Files
+     416 wininit.exe          0x000000000045ba10 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     416 wininit.exe          0x000000000045ba10 CommonProgramW6432             C:\Program Files\Common Files
+     416 wininit.exe          0x000000000045ba10 COMPUTERNAME                   VICTIM-PC
+     416 wininit.exe          0x000000000045ba10 ComSpec                        C:\Windows\system32\cmd.exe
+     416 wininit.exe          0x000000000045ba10 FP_NO_HOST_CHECK               NO
+     416 wininit.exe          0x000000000045ba10 NUMBER_OF_PROCESSORS           1
+     416 wininit.exe          0x000000000045ba10 OS                             Windows_NT
+     416 wininit.exe          0x000000000045ba10 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     416 wininit.exe          0x000000000045ba10 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     416 wininit.exe          0x000000000045ba10 PROCESSOR_ARCHITECTURE         AMD64
+     416 wininit.exe          0x000000000045ba10 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     416 wininit.exe          0x000000000045ba10 PROCESSOR_LEVEL                6
+     416 wininit.exe          0x000000000045ba10 PROCESSOR_REVISION             2a07
+     416 wininit.exe          0x000000000045ba10 ProgramData                    C:\ProgramData
+     416 wininit.exe          0x000000000045ba10 ProgramFiles                   C:\Program Files
+     416 wininit.exe          0x000000000045ba10 ProgramFiles(x86)              C:\Program Files (x86)
+     416 wininit.exe          0x000000000045ba10 ProgramW6432                   C:\Program Files
+     416 wininit.exe          0x000000000045ba10 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     416 wininit.exe          0x000000000045ba10 PUBLIC                         C:\Users\Public
+     416 wininit.exe          0x000000000045ba10 SystemDrive                    C:
+     416 wininit.exe          0x000000000045ba10 SystemRoot                     C:\Windows
+     416 wininit.exe          0x000000000045ba10 TEMP                           C:\Windows\TEMP
+     416 wininit.exe          0x000000000045ba10 TMP                            C:\Windows\TEMP
+     416 wininit.exe          0x000000000045ba10 USERNAME                       SYSTEM
+     416 wininit.exe          0x000000000045ba10 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     416 wininit.exe          0x000000000045ba10 windir                         C:\Windows
+     416 wininit.exe          0x000000000045ba10 windows_tracing_flags          3
+     416 wininit.exe          0x000000000045ba10 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     444 winlogon.exe         0x000000000041fed0 ALLUSERSPROFILE                C:\ProgramData
+     444 winlogon.exe         0x000000000041fed0 CommonProgramFiles             C:\Program Files\Common Files
+     444 winlogon.exe         0x000000000041fed0 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     444 winlogon.exe         0x000000000041fed0 CommonProgramW6432             C:\Program Files\Common Files
+     444 winlogon.exe         0x000000000041fed0 COMPUTERNAME                   VICTIM-PC
+     444 winlogon.exe         0x000000000041fed0 ComSpec                        C:\Windows\system32\cmd.exe
+     444 winlogon.exe         0x000000000041fed0 FP_NO_HOST_CHECK               NO
+     444 winlogon.exe         0x000000000041fed0 NUMBER_OF_PROCESSORS           1
+     444 winlogon.exe         0x000000000041fed0 OS                             Windows_NT
+     444 winlogon.exe         0x000000000041fed0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     444 winlogon.exe         0x000000000041fed0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     444 winlogon.exe         0x000000000041fed0 PROCESSOR_ARCHITECTURE         AMD64
+     444 winlogon.exe         0x000000000041fed0 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     444 winlogon.exe         0x000000000041fed0 PROCESSOR_LEVEL                6
+     444 winlogon.exe         0x000000000041fed0 PROCESSOR_REVISION             2a07
+     444 winlogon.exe         0x000000000041fed0 ProgramData                    C:\ProgramData
+     444 winlogon.exe         0x000000000041fed0 ProgramFiles                   C:\Program Files
+     444 winlogon.exe         0x000000000041fed0 ProgramFiles(x86)              C:\Program Files (x86)
+     444 winlogon.exe         0x000000000041fed0 ProgramW6432                   C:\Program Files
+     444 winlogon.exe         0x000000000041fed0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     444 winlogon.exe         0x000000000041fed0 PUBLIC                         C:\Users\Public
+     444 winlogon.exe         0x000000000041fed0 SystemDrive                    C:
+     444 winlogon.exe         0x000000000041fed0 SystemRoot                     C:\Windows
+     444 winlogon.exe         0x000000000041fed0 TEMP                           C:\Windows\TEMP
+     444 winlogon.exe         0x000000000041fed0 TMP                            C:\Windows\TEMP
+     444 winlogon.exe         0x000000000041fed0 USERNAME                       SYSTEM
+     444 winlogon.exe         0x000000000041fed0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     444 winlogon.exe         0x000000000041fed0 windir                         C:\Windows
+     444 winlogon.exe         0x000000000041fed0 windows_tracing_flags          3
+     444 winlogon.exe         0x000000000041fed0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     504 services.exe         0x00000000001a1320 ALLUSERSPROFILE                C:\ProgramData
+     504 services.exe         0x00000000001a1320 CommonProgramFiles             C:\Program Files\Common Files
+     504 services.exe         0x00000000001a1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     504 services.exe         0x00000000001a1320 CommonProgramW6432             C:\Program Files\Common Files
+     504 services.exe         0x00000000001a1320 COMPUTERNAME                   VICTIM-PC
+     504 services.exe         0x00000000001a1320 ComSpec                        C:\Windows\system32\cmd.exe
+     504 services.exe         0x00000000001a1320 FP_NO_HOST_CHECK               NO
+     504 services.exe         0x00000000001a1320 NUMBER_OF_PROCESSORS           1
+     504 services.exe         0x00000000001a1320 OS                             Windows_NT
+     504 services.exe         0x00000000001a1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     504 services.exe         0x00000000001a1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     504 services.exe         0x00000000001a1320 PROCESSOR_ARCHITECTURE         AMD64
+     504 services.exe         0x00000000001a1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     504 services.exe         0x00000000001a1320 PROCESSOR_LEVEL                6
+     504 services.exe         0x00000000001a1320 PROCESSOR_REVISION             2a07
+     504 services.exe         0x00000000001a1320 ProgramData                    C:\ProgramData
+     504 services.exe         0x00000000001a1320 ProgramFiles                   C:\Program Files
+     504 services.exe         0x00000000001a1320 ProgramFiles(x86)              C:\Program Files (x86)
+     504 services.exe         0x00000000001a1320 ProgramW6432                   C:\Program Files
+     504 services.exe         0x00000000001a1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     504 services.exe         0x00000000001a1320 PUBLIC                         C:\Users\Public
+     504 services.exe         0x00000000001a1320 SystemDrive                    C:
+     504 services.exe         0x00000000001a1320 SystemRoot                     C:\Windows
+     504 services.exe         0x00000000001a1320 TEMP                           C:\Windows\TEMP
+     504 services.exe         0x00000000001a1320 TMP                            C:\Windows\TEMP
+     504 services.exe         0x00000000001a1320 USERNAME                       SYSTEM
+     504 services.exe         0x00000000001a1320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     504 services.exe         0x00000000001a1320 windir                         C:\Windows
+     504 services.exe         0x00000000001a1320 windows_tracing_flags          3
+     504 services.exe         0x00000000001a1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     512 lsass.exe            0x00000000001b1320 ALLUSERSPROFILE                C:\ProgramData
+     512 lsass.exe            0x00000000001b1320 CommonProgramFiles             C:\Program Files\Common Files
+     512 lsass.exe            0x00000000001b1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     512 lsass.exe            0x00000000001b1320 CommonProgramW6432             C:\Program Files\Common Files
+     512 lsass.exe            0x00000000001b1320 COMPUTERNAME                   VICTIM-PC
+     512 lsass.exe            0x00000000001b1320 ComSpec                        C:\Windows\system32\cmd.exe
+     512 lsass.exe            0x00000000001b1320 FP_NO_HOST_CHECK               NO
+     512 lsass.exe            0x00000000001b1320 NUMBER_OF_PROCESSORS           1
+     512 lsass.exe            0x00000000001b1320 OS                             Windows_NT
+     512 lsass.exe            0x00000000001b1320 Path                           C:\Windows\System32
+     512 lsass.exe            0x00000000001b1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     512 lsass.exe            0x00000000001b1320 PROCESSOR_ARCHITECTURE         AMD64
+     512 lsass.exe            0x00000000001b1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     512 lsass.exe            0x00000000001b1320 PROCESSOR_LEVEL                6
+     512 lsass.exe            0x00000000001b1320 PROCESSOR_REVISION             2a07
+     512 lsass.exe            0x00000000001b1320 ProgramData                    C:\ProgramData
+     512 lsass.exe            0x00000000001b1320 ProgramFiles                   C:\Program Files
+     512 lsass.exe            0x00000000001b1320 ProgramFiles(x86)              C:\Program Files (x86)
+     512 lsass.exe            0x00000000001b1320 ProgramW6432                   C:\Program Files
+     512 lsass.exe            0x00000000001b1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     512 lsass.exe            0x00000000001b1320 PUBLIC                         C:\Users\Public
+     512 lsass.exe            0x00000000001b1320 SystemDrive                    C:
+     512 lsass.exe            0x00000000001b1320 SystemRoot                     C:\Windows
+     512 lsass.exe            0x00000000001b1320 TEMP                           C:\Windows\TEMP
+     512 lsass.exe            0x00000000001b1320 TMP                            C:\Windows\TEMP
+     512 lsass.exe            0x00000000001b1320 USERNAME                       SYSTEM
+     512 lsass.exe            0x00000000001b1320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     512 lsass.exe            0x00000000001b1320 windir                         C:\Windows
+     512 lsass.exe            0x00000000001b1320 windows_tracing_flags          3
+     512 lsass.exe            0x00000000001b1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     520 lsm.exe              0x0000000000281320 ALLUSERSPROFILE                C:\ProgramData
+     520 lsm.exe              0x0000000000281320 CommonProgramFiles             C:\Program Files\Common Files
+     520 lsm.exe              0x0000000000281320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     520 lsm.exe              0x0000000000281320 CommonProgramW6432             C:\Program Files\Common Files
+     520 lsm.exe              0x0000000000281320 COMPUTERNAME                   VICTIM-PC
+     520 lsm.exe              0x0000000000281320 ComSpec                        C:\Windows\system32\cmd.exe
+     520 lsm.exe              0x0000000000281320 FP_NO_HOST_CHECK               NO
+     520 lsm.exe              0x0000000000281320 NUMBER_OF_PROCESSORS           1
+     520 lsm.exe              0x0000000000281320 OS                             Windows_NT
+     520 lsm.exe              0x0000000000281320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     520 lsm.exe              0x0000000000281320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     520 lsm.exe              0x0000000000281320 PROCESSOR_ARCHITECTURE         AMD64
+     520 lsm.exe              0x0000000000281320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     520 lsm.exe              0x0000000000281320 PROCESSOR_LEVEL                6
+     520 lsm.exe              0x0000000000281320 PROCESSOR_REVISION             2a07
+     520 lsm.exe              0x0000000000281320 ProgramData                    C:\ProgramData
+     520 lsm.exe              0x0000000000281320 ProgramFiles                   C:\Program Files
+     520 lsm.exe              0x0000000000281320 ProgramFiles(x86)              C:\Program Files (x86)
+     520 lsm.exe              0x0000000000281320 ProgramW6432                   C:\Program Files
+     520 lsm.exe              0x0000000000281320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     520 lsm.exe              0x0000000000281320 PUBLIC                         C:\Users\Public
+     520 lsm.exe              0x0000000000281320 SystemDrive                    C:
+     520 lsm.exe              0x0000000000281320 SystemRoot                     C:\Windows
+     520 lsm.exe              0x0000000000281320 TEMP                           C:\Windows\TEMP
+     520 lsm.exe              0x0000000000281320 TMP                            C:\Windows\TEMP
+     520 lsm.exe              0x0000000000281320 USERNAME                       SYSTEM
+     520 lsm.exe              0x0000000000281320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     520 lsm.exe              0x0000000000281320 windir                         C:\Windows
+     520 lsm.exe              0x0000000000281320 windows_tracing_flags          3
+     520 lsm.exe              0x0000000000281320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     628 svchost.exe          0x0000000000091320 ALLUSERSPROFILE                C:\ProgramData
+     628 svchost.exe          0x0000000000091320 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     628 svchost.exe          0x0000000000091320 CommonProgramFiles             C:\Program Files\Common Files
+     628 svchost.exe          0x0000000000091320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     628 svchost.exe          0x0000000000091320 CommonProgramW6432             C:\Program Files\Common Files
+     628 svchost.exe          0x0000000000091320 COMPUTERNAME                   VICTIM-PC
+     628 svchost.exe          0x0000000000091320 ComSpec                        C:\Windows\system32\cmd.exe
+     628 svchost.exe          0x0000000000091320 FP_NO_HOST_CHECK               NO
+     628 svchost.exe          0x0000000000091320 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     628 svchost.exe          0x0000000000091320 NUMBER_OF_PROCESSORS           1
+     628 svchost.exe          0x0000000000091320 OS                             Windows_NT
+     628 svchost.exe          0x0000000000091320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     628 svchost.exe          0x0000000000091320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     628 svchost.exe          0x0000000000091320 PROCESSOR_ARCHITECTURE         AMD64
+     628 svchost.exe          0x0000000000091320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     628 svchost.exe          0x0000000000091320 PROCESSOR_LEVEL                6
+     628 svchost.exe          0x0000000000091320 PROCESSOR_REVISION             2a07
+     628 svchost.exe          0x0000000000091320 ProgramData                    C:\ProgramData
+     628 svchost.exe          0x0000000000091320 ProgramFiles                   C:\Program Files
+     628 svchost.exe          0x0000000000091320 ProgramFiles(x86)              C:\Program Files (x86)
+     628 svchost.exe          0x0000000000091320 ProgramW6432                   C:\Program Files
+     628 svchost.exe          0x0000000000091320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     628 svchost.exe          0x0000000000091320 PUBLIC                         C:\Users\Public
+     628 svchost.exe          0x0000000000091320 SystemDrive                    C:
+     628 svchost.exe          0x0000000000091320 SystemRoot                     C:\Windows
+     628 svchost.exe          0x0000000000091320 TEMP                           C:\Windows\TEMP
+     628 svchost.exe          0x0000000000091320 TMP                            C:\Windows\TEMP
+     628 svchost.exe          0x0000000000091320 USERDOMAIN                     WORKGROUP
+     628 svchost.exe          0x0000000000091320 USERNAME                       VICTIM-PC$
+     628 svchost.exe          0x0000000000091320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     628 svchost.exe          0x0000000000091320 windir                         C:\Windows
+     628 svchost.exe          0x0000000000091320 windows_tracing_flags          3
+     628 svchost.exe          0x0000000000091320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     688 VBoxService.ex       0x0000000000366310 ALLUSERSPROFILE                C:\ProgramData
+     688 VBoxService.ex       0x0000000000366310 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     688 VBoxService.ex       0x0000000000366310 CommonProgramFiles             C:\Program Files\Common Files
+     688 VBoxService.ex       0x0000000000366310 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     688 VBoxService.ex       0x0000000000366310 CommonProgramW6432             C:\Program Files\Common Files
+     688 VBoxService.ex       0x0000000000366310 COMPUTERNAME                   VICTIM-PC
+     688 VBoxService.ex       0x0000000000366310 ComSpec                        C:\Windows\system32\cmd.exe
+     688 VBoxService.ex       0x0000000000366310 FP_NO_HOST_CHECK               NO
+     688 VBoxService.ex       0x0000000000366310 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     688 VBoxService.ex       0x0000000000366310 NUMBER_OF_PROCESSORS           1
+     688 VBoxService.ex       0x0000000000366310 OS                             Windows_NT
+     688 VBoxService.ex       0x0000000000366310 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
+     688 VBoxService.ex       0x0000000000366310 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     688 VBoxService.ex       0x0000000000366310 PROCESSOR_ARCHITECTURE         AMD64
+     688 VBoxService.ex       0x0000000000366310 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     688 VBoxService.ex       0x0000000000366310 PROCESSOR_LEVEL                6
+     688 VBoxService.ex       0x0000000000366310 PROCESSOR_REVISION             2a07
+     688 VBoxService.ex       0x0000000000366310 ProgramData                    C:\ProgramData
+     688 VBoxService.ex       0x0000000000366310 ProgramFiles                   C:\Program Files
+     688 VBoxService.ex       0x0000000000366310 ProgramFiles(x86)              C:\Program Files (x86)
+     688 VBoxService.ex       0x0000000000366310 ProgramW6432                   C:\Program Files
+     688 VBoxService.ex       0x0000000000366310 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     688 VBoxService.ex       0x0000000000366310 PUBLIC                         C:\Users\Public
+     688 VBoxService.ex       0x0000000000366310 SystemDrive                    C:
+     688 VBoxService.ex       0x0000000000366310 SystemRoot                     C:\Windows
+     688 VBoxService.ex       0x0000000000366310 TEMP                           C:\Windows\TEMP
+     688 VBoxService.ex       0x0000000000366310 TMP                            C:\Windows\TEMP
+     688 VBoxService.ex       0x0000000000366310 USERDOMAIN                     WORKGROUP
+     688 VBoxService.ex       0x0000000000366310 USERNAME                       VICTIM-PC$
+     688 VBoxService.ex       0x0000000000366310 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     688 VBoxService.ex       0x0000000000366310 windir                         C:\Windows
+     688 VBoxService.ex       0x0000000000366310 windows_tracing_flags          3
+     688 VBoxService.ex       0x0000000000366310 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     752 svchost.exe          0x00000000003d1320 ALLUSERSPROFILE                C:\ProgramData
+     752 svchost.exe          0x00000000003d1320 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+     752 svchost.exe          0x00000000003d1320 CommonProgramFiles             C:\Program Files\Common Files
+     752 svchost.exe          0x00000000003d1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     752 svchost.exe          0x00000000003d1320 CommonProgramW6432             C:\Program Files\Common Files
+     752 svchost.exe          0x00000000003d1320 COMPUTERNAME                   VICTIM-PC
+     752 svchost.exe          0x00000000003d1320 ComSpec                        C:\Windows\system32\cmd.exe
+     752 svchost.exe          0x00000000003d1320 FP_NO_HOST_CHECK               NO
+     752 svchost.exe          0x00000000003d1320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+     752 svchost.exe          0x00000000003d1320 NUMBER_OF_PROCESSORS           1
+     752 svchost.exe          0x00000000003d1320 OS                             Windows_NT
+     752 svchost.exe          0x00000000003d1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     752 svchost.exe          0x00000000003d1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     752 svchost.exe          0x00000000003d1320 PROCESSOR_ARCHITECTURE         AMD64
+     752 svchost.exe          0x00000000003d1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     752 svchost.exe          0x00000000003d1320 PROCESSOR_LEVEL                6
+     752 svchost.exe          0x00000000003d1320 PROCESSOR_REVISION             2a07
+     752 svchost.exe          0x00000000003d1320 ProgramData                    C:\ProgramData
+     752 svchost.exe          0x00000000003d1320 ProgramFiles                   C:\Program Files
+     752 svchost.exe          0x00000000003d1320 ProgramFiles(x86)              C:\Program Files (x86)
+     752 svchost.exe          0x00000000003d1320 ProgramW6432                   C:\Program Files
+     752 svchost.exe          0x00000000003d1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     752 svchost.exe          0x00000000003d1320 PUBLIC                         C:\Users\Public
+     752 svchost.exe          0x00000000003d1320 SystemDrive                    C:
+     752 svchost.exe          0x00000000003d1320 SystemRoot                     C:\Windows
+     752 svchost.exe          0x00000000003d1320 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+     752 svchost.exe          0x00000000003d1320 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+     752 svchost.exe          0x00000000003d1320 USERDOMAIN                     WORKGROUP
+     752 svchost.exe          0x00000000003d1320 USERNAME                       VICTIM-PC$
+     752 svchost.exe          0x00000000003d1320 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+     752 svchost.exe          0x00000000003d1320 windir                         C:\Windows
+     752 svchost.exe          0x00000000003d1320 windows_tracing_flags          3
+     752 svchost.exe          0x00000000003d1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     852 svchost.exe          0x0000000000361320 ALLUSERSPROFILE                C:\ProgramData
+     852 svchost.exe          0x0000000000361320 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+     852 svchost.exe          0x0000000000361320 CommonProgramFiles             C:\Program Files\Common Files
+     852 svchost.exe          0x0000000000361320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     852 svchost.exe          0x0000000000361320 CommonProgramW6432             C:\Program Files\Common Files
+     852 svchost.exe          0x0000000000361320 COMPUTERNAME                   VICTIM-PC
+     852 svchost.exe          0x0000000000361320 ComSpec                        C:\Windows\system32\cmd.exe
+     852 svchost.exe          0x0000000000361320 FP_NO_HOST_CHECK               NO
+     852 svchost.exe          0x0000000000361320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+     852 svchost.exe          0x0000000000361320 NUMBER_OF_PROCESSORS           1
+     852 svchost.exe          0x0000000000361320 OS                             Windows_NT
+     852 svchost.exe          0x0000000000361320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     852 svchost.exe          0x0000000000361320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     852 svchost.exe          0x0000000000361320 PROCESSOR_ARCHITECTURE         AMD64
+     852 svchost.exe          0x0000000000361320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     852 svchost.exe          0x0000000000361320 PROCESSOR_LEVEL                6
+     852 svchost.exe          0x0000000000361320 PROCESSOR_REVISION             2a07
+     852 svchost.exe          0x0000000000361320 ProgramData                    C:\ProgramData
+     852 svchost.exe          0x0000000000361320 ProgramFiles                   C:\Program Files
+     852 svchost.exe          0x0000000000361320 ProgramFiles(x86)              C:\Program Files (x86)
+     852 svchost.exe          0x0000000000361320 ProgramW6432                   C:\Program Files
+     852 svchost.exe          0x0000000000361320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     852 svchost.exe          0x0000000000361320 PUBLIC                         C:\Users\Public
+     852 svchost.exe          0x0000000000361320 SystemDrive                    C:
+     852 svchost.exe          0x0000000000361320 SystemRoot                     C:\Windows
+     852 svchost.exe          0x0000000000361320 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     852 svchost.exe          0x0000000000361320 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     852 svchost.exe          0x0000000000361320 USERDOMAIN                     NT AUTHORITY
+     852 svchost.exe          0x0000000000361320 USERNAME                       LOCAL SERVICE
+     852 svchost.exe          0x0000000000361320 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+     852 svchost.exe          0x0000000000361320 windir                         C:\Windows
+     852 svchost.exe          0x0000000000361320 windows_tracing_flags          3
+     852 svchost.exe          0x0000000000361320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     892 svchost.exe          0x00000000003e1320 ALLUSERSPROFILE                C:\ProgramData
+     892 svchost.exe          0x00000000003e1320 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     892 svchost.exe          0x00000000003e1320 CommonProgramFiles             C:\Program Files\Common Files
+     892 svchost.exe          0x00000000003e1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     892 svchost.exe          0x00000000003e1320 CommonProgramW6432             C:\Program Files\Common Files
+     892 svchost.exe          0x00000000003e1320 COMPUTERNAME                   VICTIM-PC
+     892 svchost.exe          0x00000000003e1320 ComSpec                        C:\Windows\system32\cmd.exe
+     892 svchost.exe          0x00000000003e1320 FP_NO_HOST_CHECK               NO
+     892 svchost.exe          0x00000000003e1320 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     892 svchost.exe          0x00000000003e1320 NUMBER_OF_PROCESSORS           1
+     892 svchost.exe          0x00000000003e1320 OS                             Windows_NT
+     892 svchost.exe          0x00000000003e1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     892 svchost.exe          0x00000000003e1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     892 svchost.exe          0x00000000003e1320 PROCESSOR_ARCHITECTURE         AMD64
+     892 svchost.exe          0x00000000003e1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     892 svchost.exe          0x00000000003e1320 PROCESSOR_LEVEL                6
+     892 svchost.exe          0x00000000003e1320 PROCESSOR_REVISION             2a07
+     892 svchost.exe          0x00000000003e1320 ProgramData                    C:\ProgramData
+     892 svchost.exe          0x00000000003e1320 ProgramFiles                   C:\Program Files
+     892 svchost.exe          0x00000000003e1320 ProgramFiles(x86)              C:\Program Files (x86)
+     892 svchost.exe          0x00000000003e1320 ProgramW6432                   C:\Program Files
+     892 svchost.exe          0x00000000003e1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     892 svchost.exe          0x00000000003e1320 PUBLIC                         C:\Users\Public
+     892 svchost.exe          0x00000000003e1320 SystemDrive                    C:
+     892 svchost.exe          0x00000000003e1320 SystemRoot                     C:\Windows
+     892 svchost.exe          0x00000000003e1320 TEMP                           C:\Windows\TEMP
+     892 svchost.exe          0x00000000003e1320 TMP                            C:\Windows\TEMP
+     892 svchost.exe          0x00000000003e1320 USERDOMAIN                     WORKGROUP
+     892 svchost.exe          0x00000000003e1320 USERNAME                       VICTIM-PC$
+     892 svchost.exe          0x00000000003e1320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     892 svchost.exe          0x00000000003e1320 windir                         C:\Windows
+     892 svchost.exe          0x00000000003e1320 windows_tracing_flags          3
+     892 svchost.exe          0x00000000003e1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     920 svchost.exe          0x0000000000391320 ALLUSERSPROFILE                C:\ProgramData
+     920 svchost.exe          0x0000000000391320 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     920 svchost.exe          0x0000000000391320 CommonProgramFiles             C:\Program Files\Common Files
+     920 svchost.exe          0x0000000000391320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     920 svchost.exe          0x0000000000391320 CommonProgramW6432             C:\Program Files\Common Files
+     920 svchost.exe          0x0000000000391320 COMPUTERNAME                   VICTIM-PC
+     920 svchost.exe          0x0000000000391320 ComSpec                        C:\Windows\system32\cmd.exe
+     920 svchost.exe          0x0000000000391320 FP_NO_HOST_CHECK               NO
+     920 svchost.exe          0x0000000000391320 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     920 svchost.exe          0x0000000000391320 NUMBER_OF_PROCESSORS           1
+     920 svchost.exe          0x0000000000391320 OS                             Windows_NT
+     920 svchost.exe          0x0000000000391320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     920 svchost.exe          0x0000000000391320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     920 svchost.exe          0x0000000000391320 PROCESSOR_ARCHITECTURE         AMD64
+     920 svchost.exe          0x0000000000391320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     920 svchost.exe          0x0000000000391320 PROCESSOR_LEVEL                6
+     920 svchost.exe          0x0000000000391320 PROCESSOR_REVISION             2a07
+     920 svchost.exe          0x0000000000391320 ProgramData                    C:\ProgramData
+     920 svchost.exe          0x0000000000391320 ProgramFiles                   C:\Program Files
+     920 svchost.exe          0x0000000000391320 ProgramFiles(x86)              C:\Program Files (x86)
+     920 svchost.exe          0x0000000000391320 ProgramW6432                   C:\Program Files
+     920 svchost.exe          0x0000000000391320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     920 svchost.exe          0x0000000000391320 PUBLIC                         C:\Users\Public
+     920 svchost.exe          0x0000000000391320 SystemDrive                    C:
+     920 svchost.exe          0x0000000000391320 SystemRoot                     C:\Windows
+     920 svchost.exe          0x0000000000391320 TEMP                           C:\Windows\TEMP
+     920 svchost.exe          0x0000000000391320 TMP                            C:\Windows\TEMP
+     920 svchost.exe          0x0000000000391320 USERDOMAIN                     WORKGROUP
+     920 svchost.exe          0x0000000000391320 USERNAME                       VICTIM-PC$
+     920 svchost.exe          0x0000000000391320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     920 svchost.exe          0x0000000000391320 windir                         C:\Windows
+     920 svchost.exe          0x0000000000391320 windows_tracing_flags          3
+     920 svchost.exe          0x0000000000391320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     400 svchost.exe          0x00000000002c1320 ALLUSERSPROFILE                C:\ProgramData
+     400 svchost.exe          0x00000000002c1320 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+     400 svchost.exe          0x00000000002c1320 CommonProgramFiles             C:\Program Files\Common Files
+     400 svchost.exe          0x00000000002c1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+     400 svchost.exe          0x00000000002c1320 CommonProgramW6432             C:\Program Files\Common Files
+     400 svchost.exe          0x00000000002c1320 COMPUTERNAME                   VICTIM-PC
+     400 svchost.exe          0x00000000002c1320 ComSpec                        C:\Windows\system32\cmd.exe
+     400 svchost.exe          0x00000000002c1320 FP_NO_HOST_CHECK               NO
+     400 svchost.exe          0x00000000002c1320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+     400 svchost.exe          0x00000000002c1320 NUMBER_OF_PROCESSORS           1
+     400 svchost.exe          0x00000000002c1320 OS                             Windows_NT
+     400 svchost.exe          0x00000000002c1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     400 svchost.exe          0x00000000002c1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     400 svchost.exe          0x00000000002c1320 PROCESSOR_ARCHITECTURE         AMD64
+     400 svchost.exe          0x00000000002c1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+     400 svchost.exe          0x00000000002c1320 PROCESSOR_LEVEL                6
+     400 svchost.exe          0x00000000002c1320 PROCESSOR_REVISION             2a07
+     400 svchost.exe          0x00000000002c1320 ProgramData                    C:\ProgramData
+     400 svchost.exe          0x00000000002c1320 ProgramFiles                   C:\Program Files
+     400 svchost.exe          0x00000000002c1320 ProgramFiles(x86)              C:\Program Files (x86)
+     400 svchost.exe          0x00000000002c1320 ProgramW6432                   C:\Program Files
+     400 svchost.exe          0x00000000002c1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     400 svchost.exe          0x00000000002c1320 PUBLIC                         C:\Users\Public
+     400 svchost.exe          0x00000000002c1320 SystemDrive                    C:
+     400 svchost.exe          0x00000000002c1320 SystemRoot                     C:\Windows
+     400 svchost.exe          0x00000000002c1320 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     400 svchost.exe          0x00000000002c1320 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     400 svchost.exe          0x00000000002c1320 USERDOMAIN                     NT AUTHORITY
+     400 svchost.exe          0x00000000002c1320 USERNAME                       LOCAL SERVICE
+     400 svchost.exe          0x00000000002c1320 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+     400 svchost.exe          0x00000000002c1320 windir                         C:\Windows
+     400 svchost.exe          0x00000000002c1320 windows_tracing_flags          3
+     400 svchost.exe          0x00000000002c1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1004 svchost.exe          0x00000000001f1320 ALLUSERSPROFILE                C:\ProgramData
+    1004 svchost.exe          0x00000000001f1320 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+    1004 svchost.exe          0x00000000001f1320 CommonProgramFiles             C:\Program Files\Common Files
+    1004 svchost.exe          0x00000000001f1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1004 svchost.exe          0x00000000001f1320 CommonProgramW6432             C:\Program Files\Common Files
+    1004 svchost.exe          0x00000000001f1320 COMPUTERNAME                   VICTIM-PC
+    1004 svchost.exe          0x00000000001f1320 ComSpec                        C:\Windows\system32\cmd.exe
+    1004 svchost.exe          0x00000000001f1320 FP_NO_HOST_CHECK               NO
+    1004 svchost.exe          0x00000000001f1320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+    1004 svchost.exe          0x00000000001f1320 NUMBER_OF_PROCESSORS           1
+    1004 svchost.exe          0x00000000001f1320 OS                             Windows_NT
+    1004 svchost.exe          0x00000000001f1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1004 svchost.exe          0x00000000001f1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1004 svchost.exe          0x00000000001f1320 PROCESSOR_ARCHITECTURE         AMD64
+    1004 svchost.exe          0x00000000001f1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1004 svchost.exe          0x00000000001f1320 PROCESSOR_LEVEL                6
+    1004 svchost.exe          0x00000000001f1320 PROCESSOR_REVISION             2a07
+    1004 svchost.exe          0x00000000001f1320 ProgramData                    C:\ProgramData
+    1004 svchost.exe          0x00000000001f1320 ProgramFiles                   C:\Program Files
+    1004 svchost.exe          0x00000000001f1320 ProgramFiles(x86)              C:\Program Files (x86)
+    1004 svchost.exe          0x00000000001f1320 ProgramW6432                   C:\Program Files
+    1004 svchost.exe          0x00000000001f1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1004 svchost.exe          0x00000000001f1320 PUBLIC                         C:\Users\Public
+    1004 svchost.exe          0x00000000001f1320 SystemDrive                    C:
+    1004 svchost.exe          0x00000000001f1320 SystemRoot                     C:\Windows
+    1004 svchost.exe          0x00000000001f1320 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1004 svchost.exe          0x00000000001f1320 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1004 svchost.exe          0x00000000001f1320 USERDOMAIN                     WORKGROUP
+    1004 svchost.exe          0x00000000001f1320 USERNAME                       VICTIM-PC$
+    1004 svchost.exe          0x00000000001f1320 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+    1004 svchost.exe          0x00000000001f1320 windir                         C:\Windows
+    1004 svchost.exe          0x00000000001f1320 windows_tracing_flags          3
+    1004 svchost.exe          0x00000000001f1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1140 spoolsv.exe          0x00000000002e1320 ALLUSERSPROFILE                C:\ProgramData
+    1140 spoolsv.exe          0x00000000002e1320 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    1140 spoolsv.exe          0x00000000002e1320 CommonProgramFiles             C:\Program Files\Common Files
+    1140 spoolsv.exe          0x00000000002e1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1140 spoolsv.exe          0x00000000002e1320 CommonProgramW6432             C:\Program Files\Common Files
+    1140 spoolsv.exe          0x00000000002e1320 COMPUTERNAME                   VICTIM-PC
+    1140 spoolsv.exe          0x00000000002e1320 ComSpec                        C:\Windows\system32\cmd.exe
+    1140 spoolsv.exe          0x00000000002e1320 FP_NO_HOST_CHECK               NO
+    1140 spoolsv.exe          0x00000000002e1320 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    1140 spoolsv.exe          0x00000000002e1320 NUMBER_OF_PROCESSORS           1
+    1140 spoolsv.exe          0x00000000002e1320 OS                             Windows_NT
+    1140 spoolsv.exe          0x00000000002e1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1140 spoolsv.exe          0x00000000002e1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1140 spoolsv.exe          0x00000000002e1320 PROCESSOR_ARCHITECTURE         AMD64
+    1140 spoolsv.exe          0x00000000002e1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1140 spoolsv.exe          0x00000000002e1320 PROCESSOR_LEVEL                6
+    1140 spoolsv.exe          0x00000000002e1320 PROCESSOR_REVISION             2a07
+    1140 spoolsv.exe          0x00000000002e1320 ProgramData                    C:\ProgramData
+    1140 spoolsv.exe          0x00000000002e1320 ProgramFiles                   C:\Program Files
+    1140 spoolsv.exe          0x00000000002e1320 ProgramFiles(x86)              C:\Program Files (x86)
+    1140 spoolsv.exe          0x00000000002e1320 ProgramW6432                   C:\Program Files
+    1140 spoolsv.exe          0x00000000002e1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1140 spoolsv.exe          0x00000000002e1320 PUBLIC                         C:\Users\Public
+    1140 spoolsv.exe          0x00000000002e1320 SystemDrive                    C:
+    1140 spoolsv.exe          0x00000000002e1320 SystemRoot                     C:\Windows
+    1140 spoolsv.exe          0x00000000002e1320 TEMP                           C:\Windows\TEMP
+    1140 spoolsv.exe          0x00000000002e1320 TMP                            C:\Windows\TEMP
+    1140 spoolsv.exe          0x00000000002e1320 USERDOMAIN                     WORKGROUP
+    1140 spoolsv.exe          0x00000000002e1320 USERNAME                       VICTIM-PC$
+    1140 spoolsv.exe          0x00000000002e1320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    1140 spoolsv.exe          0x00000000002e1320 windir                         C:\Windows
+    1140 spoolsv.exe          0x00000000002e1320 windows_tracing_flags          3
+    1140 spoolsv.exe          0x00000000002e1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1268 svchost.exe          0x0000000000091320 ALLUSERSPROFILE                C:\ProgramData
+    1268 svchost.exe          0x0000000000091320 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    1268 svchost.exe          0x0000000000091320 CommonProgramFiles             C:\Program Files\Common Files
+    1268 svchost.exe          0x0000000000091320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1268 svchost.exe          0x0000000000091320 CommonProgramW6432             C:\Program Files\Common Files
+    1268 svchost.exe          0x0000000000091320 COMPUTERNAME                   VICTIM-PC
+    1268 svchost.exe          0x0000000000091320 ComSpec                        C:\Windows\system32\cmd.exe
+    1268 svchost.exe          0x0000000000091320 FP_NO_HOST_CHECK               NO
+    1268 svchost.exe          0x0000000000091320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    1268 svchost.exe          0x0000000000091320 NUMBER_OF_PROCESSORS           1
+    1268 svchost.exe          0x0000000000091320 OS                             Windows_NT
+    1268 svchost.exe          0x0000000000091320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1268 svchost.exe          0x0000000000091320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1268 svchost.exe          0x0000000000091320 PROCESSOR_ARCHITECTURE         AMD64
+    1268 svchost.exe          0x0000000000091320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1268 svchost.exe          0x0000000000091320 PROCESSOR_LEVEL                6
+    1268 svchost.exe          0x0000000000091320 PROCESSOR_REVISION             2a07
+    1268 svchost.exe          0x0000000000091320 ProgramData                    C:\ProgramData
+    1268 svchost.exe          0x0000000000091320 ProgramFiles                   C:\Program Files
+    1268 svchost.exe          0x0000000000091320 ProgramFiles(x86)              C:\Program Files (x86)
+    1268 svchost.exe          0x0000000000091320 ProgramW6432                   C:\Program Files
+    1268 svchost.exe          0x0000000000091320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1268 svchost.exe          0x0000000000091320 PUBLIC                         C:\Users\Public
+    1268 svchost.exe          0x0000000000091320 SystemDrive                    C:
+    1268 svchost.exe          0x0000000000091320 SystemRoot                     C:\Windows
+    1268 svchost.exe          0x0000000000091320 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1268 svchost.exe          0x0000000000091320 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1268 svchost.exe          0x0000000000091320 USERDOMAIN                     NT AUTHORITY
+    1268 svchost.exe          0x0000000000091320 USERNAME                       LOCAL SERVICE
+    1268 svchost.exe          0x0000000000091320 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    1268 svchost.exe          0x0000000000091320 windir                         C:\Windows
+    1268 svchost.exe          0x0000000000091320 windows_tracing_flags          3
+    1268 svchost.exe          0x0000000000091320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1368 svchost.exe          0x0000000000431320 ALLUSERSPROFILE                C:\ProgramData
+    1368 svchost.exe          0x0000000000431320 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    1368 svchost.exe          0x0000000000431320 CommonProgramFiles             C:\Program Files\Common Files
+    1368 svchost.exe          0x0000000000431320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1368 svchost.exe          0x0000000000431320 CommonProgramW6432             C:\Program Files\Common Files
+    1368 svchost.exe          0x0000000000431320 COMPUTERNAME                   VICTIM-PC
+    1368 svchost.exe          0x0000000000431320 ComSpec                        C:\Windows\system32\cmd.exe
+    1368 svchost.exe          0x0000000000431320 FP_NO_HOST_CHECK               NO
+    1368 svchost.exe          0x0000000000431320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    1368 svchost.exe          0x0000000000431320 NUMBER_OF_PROCESSORS           1
+    1368 svchost.exe          0x0000000000431320 OS                             Windows_NT
+    1368 svchost.exe          0x0000000000431320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1368 svchost.exe          0x0000000000431320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1368 svchost.exe          0x0000000000431320 PROCESSOR_ARCHITECTURE         AMD64
+    1368 svchost.exe          0x0000000000431320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1368 svchost.exe          0x0000000000431320 PROCESSOR_LEVEL                6
+    1368 svchost.exe          0x0000000000431320 PROCESSOR_REVISION             2a07
+    1368 svchost.exe          0x0000000000431320 ProgramData                    C:\ProgramData
+    1368 svchost.exe          0x0000000000431320 ProgramFiles                   C:\Program Files
+    1368 svchost.exe          0x0000000000431320 ProgramFiles(x86)              C:\Program Files (x86)
+    1368 svchost.exe          0x0000000000431320 ProgramW6432                   C:\Program Files
+    1368 svchost.exe          0x0000000000431320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1368 svchost.exe          0x0000000000431320 PUBLIC                         C:\Users\Public
+    1368 svchost.exe          0x0000000000431320 SystemDrive                    C:
+    1368 svchost.exe          0x0000000000431320 SystemRoot                     C:\Windows
+    1368 svchost.exe          0x0000000000431320 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1368 svchost.exe          0x0000000000431320 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1368 svchost.exe          0x0000000000431320 USERDOMAIN                     NT AUTHORITY
+    1368 svchost.exe          0x0000000000431320 USERNAME                       LOCAL SERVICE
+    1368 svchost.exe          0x0000000000431320 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    1368 svchost.exe          0x0000000000431320 windir                         C:\Windows
+    1368 svchost.exe          0x0000000000431320 windows_tracing_flags          3
+    1368 svchost.exe          0x0000000000431320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1788 taskhost.exe         0x00000000001d1320 ALLUSERSPROFILE                C:\ProgramData
+    1788 taskhost.exe         0x00000000001d1320 APPDATA                        C:\Users\victim\AppData\Roaming
+    1788 taskhost.exe         0x00000000001d1320 CommonProgramFiles             C:\Program Files\Common Files
+    1788 taskhost.exe         0x00000000001d1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1788 taskhost.exe         0x00000000001d1320 CommonProgramW6432             C:\Program Files\Common Files
+    1788 taskhost.exe         0x00000000001d1320 COMPUTERNAME                   VICTIM-PC
+    1788 taskhost.exe         0x00000000001d1320 ComSpec                        C:\Windows\system32\cmd.exe
+    1788 taskhost.exe         0x00000000001d1320 FP_NO_HOST_CHECK               NO
+    1788 taskhost.exe         0x00000000001d1320 HOMEDRIVE                      C:
+    1788 taskhost.exe         0x00000000001d1320 HOMEPATH                       \Users\victim
+    1788 taskhost.exe         0x00000000001d1320 LOCALAPPDATA                   C:\Users\victim\AppData\Local
+    1788 taskhost.exe         0x00000000001d1320 LOGONSERVER                    \\VICTIM-PC
+    1788 taskhost.exe         0x00000000001d1320 NUMBER_OF_PROCESSORS           1
+    1788 taskhost.exe         0x00000000001d1320 OS                             Windows_NT
+    1788 taskhost.exe         0x00000000001d1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1788 taskhost.exe         0x00000000001d1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1788 taskhost.exe         0x00000000001d1320 PROCESSOR_ARCHITECTURE         AMD64
+    1788 taskhost.exe         0x00000000001d1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1788 taskhost.exe         0x00000000001d1320 PROCESSOR_LEVEL                6
+    1788 taskhost.exe         0x00000000001d1320 PROCESSOR_REVISION             2a07
+    1788 taskhost.exe         0x00000000001d1320 ProgramData                    C:\ProgramData
+    1788 taskhost.exe         0x00000000001d1320 ProgramFiles                   C:\Program Files
+    1788 taskhost.exe         0x00000000001d1320 ProgramFiles(x86)              C:\Program Files (x86)
+    1788 taskhost.exe         0x00000000001d1320 ProgramW6432                   C:\Program Files
+    1788 taskhost.exe         0x00000000001d1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1788 taskhost.exe         0x00000000001d1320 PUBLIC                         C:\Users\Public
+    1788 taskhost.exe         0x00000000001d1320 SystemDrive                    C:
+    1788 taskhost.exe         0x00000000001d1320 SystemRoot                     C:\Windows
+    1788 taskhost.exe         0x00000000001d1320 TEMP                           C:\Users\victim\AppData\Local\Temp
+    1788 taskhost.exe         0x00000000001d1320 TMP                            C:\Users\victim\AppData\Local\Temp
+    1788 taskhost.exe         0x00000000001d1320 USERDOMAIN                     victim-PC
+    1788 taskhost.exe         0x00000000001d1320 USERNAME                       victim
+    1788 taskhost.exe         0x00000000001d1320 USERPROFILE                    C:\Users\victim
+    1788 taskhost.exe         0x00000000001d1320 windir                         C:\Windows
+    1788 taskhost.exe         0x00000000001d1320 windows_tracing_flags          3
+    1788 taskhost.exe         0x00000000001d1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1860 explorer.exe         0x0000000002b6cf00 ALLUSERSPROFILE                C:\ProgramData
+    1860 explorer.exe         0x0000000002b6cf00 APPDATA                        C:\Users\victim\AppData\Roaming
+    1860 explorer.exe         0x0000000002b6cf00 CommonProgramFiles             C:\Program Files\Common Files
+    1860 explorer.exe         0x0000000002b6cf00 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1860 explorer.exe         0x0000000002b6cf00 CommonProgramW6432             C:\Program Files\Common Files
+    1860 explorer.exe         0x0000000002b6cf00 COMPUTERNAME                   VICTIM-PC
+    1860 explorer.exe         0x0000000002b6cf00 ComSpec                        C:\Windows\system32\cmd.exe
+    1860 explorer.exe         0x0000000002b6cf00 FP_NO_HOST_CHECK               NO
+    1860 explorer.exe         0x0000000002b6cf00 HOMEDRIVE                      C:
+    1860 explorer.exe         0x0000000002b6cf00 HOMEPATH                       \Users\victim
+    1860 explorer.exe         0x0000000002b6cf00 LOCALAPPDATA                   C:\Users\victim\AppData\Local
+    1860 explorer.exe         0x0000000002b6cf00 LOGONSERVER                    \\VICTIM-PC
+    1860 explorer.exe         0x0000000002b6cf00 NUMBER_OF_PROCESSORS           1
+    1860 explorer.exe         0x0000000002b6cf00 OS                             Windows_NT
+    1860 explorer.exe         0x0000000002b6cf00 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1860 explorer.exe         0x0000000002b6cf00 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1860 explorer.exe         0x0000000002b6cf00 PROCESSOR_ARCHITECTURE         AMD64
+    1860 explorer.exe         0x0000000002b6cf00 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1860 explorer.exe         0x0000000002b6cf00 PROCESSOR_LEVEL                6
+    1860 explorer.exe         0x0000000002b6cf00 PROCESSOR_REVISION             2a07
+    1860 explorer.exe         0x0000000002b6cf00 ProgramData                    C:\ProgramData
+    1860 explorer.exe         0x0000000002b6cf00 ProgramFiles                   C:\Program Files
+    1860 explorer.exe         0x0000000002b6cf00 ProgramFiles(x86)              C:\Program Files (x86)
+    1860 explorer.exe         0x0000000002b6cf00 ProgramW6432                   C:\Program Files
+    1860 explorer.exe         0x0000000002b6cf00 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1860 explorer.exe         0x0000000002b6cf00 PUBLIC                         C:\Users\Public
+    1860 explorer.exe         0x0000000002b6cf00 SESSIONNAME                    Console
+    1860 explorer.exe         0x0000000002b6cf00 SystemDrive                    C:
+    1860 explorer.exe         0x0000000002b6cf00 SystemRoot                     C:\Windows
+    1860 explorer.exe         0x0000000002b6cf00 TEMP                           C:\Users\victim\AppData\Local\Temp
+    1860 explorer.exe         0x0000000002b6cf00 TMP                            C:\Users\victim\AppData\Local\Temp
+    1860 explorer.exe         0x0000000002b6cf00 USERDOMAIN                     victim-PC
+    1860 explorer.exe         0x0000000002b6cf00 USERNAME                       victim
+    1860 explorer.exe         0x0000000002b6cf00 USERPROFILE                    C:\Users\victim
+    1860 explorer.exe         0x0000000002b6cf00 windir                         C:\Windows
+    1860 explorer.exe         0x0000000002b6cf00 windows_tracing_flags          3
+    1860 explorer.exe         0x0000000002b6cf00 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1896 dwm.exe              0x0000000000291320 ALLUSERSPROFILE                C:\ProgramData
+    1896 dwm.exe              0x0000000000291320 APPDATA                        C:\Users\victim\AppData\Roaming
+    1896 dwm.exe              0x0000000000291320 CommonProgramFiles             C:\Program Files\Common Files
+    1896 dwm.exe              0x0000000000291320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1896 dwm.exe              0x0000000000291320 CommonProgramW6432             C:\Program Files\Common Files
+    1896 dwm.exe              0x0000000000291320 COMPUTERNAME                   VICTIM-PC
+    1896 dwm.exe              0x0000000000291320 ComSpec                        C:\Windows\system32\cmd.exe
+    1896 dwm.exe              0x0000000000291320 FP_NO_HOST_CHECK               NO
+    1896 dwm.exe              0x0000000000291320 HOMEDRIVE                      C:
+    1896 dwm.exe              0x0000000000291320 HOMEPATH                       \Users\victim
+    1896 dwm.exe              0x0000000000291320 LOCALAPPDATA                   C:\Users\victim\AppData\Local
+    1896 dwm.exe              0x0000000000291320 LOGONSERVER                    \\VICTIM-PC
+    1896 dwm.exe              0x0000000000291320 NUMBER_OF_PROCESSORS           1
+    1896 dwm.exe              0x0000000000291320 OS                             Windows_NT
+    1896 dwm.exe              0x0000000000291320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1896 dwm.exe              0x0000000000291320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1896 dwm.exe              0x0000000000291320 PROCESSOR_ARCHITECTURE         AMD64
+    1896 dwm.exe              0x0000000000291320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1896 dwm.exe              0x0000000000291320 PROCESSOR_LEVEL                6
+    1896 dwm.exe              0x0000000000291320 PROCESSOR_REVISION             2a07
+    1896 dwm.exe              0x0000000000291320 ProgramData                    C:\ProgramData
+    1896 dwm.exe              0x0000000000291320 ProgramFiles                   C:\Program Files
+    1896 dwm.exe              0x0000000000291320 ProgramFiles(x86)              C:\Program Files (x86)
+    1896 dwm.exe              0x0000000000291320 ProgramW6432                   C:\Program Files
+    1896 dwm.exe              0x0000000000291320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1896 dwm.exe              0x0000000000291320 PUBLIC                         C:\Users\Public
+    1896 dwm.exe              0x0000000000291320 SystemDrive                    C:
+    1896 dwm.exe              0x0000000000291320 SystemRoot                     C:\Windows
+    1896 dwm.exe              0x0000000000291320 TEMP                           C:\Users\victim\AppData\Local\Temp
+    1896 dwm.exe              0x0000000000291320 TMP                            C:\Users\victim\AppData\Local\Temp
+    1896 dwm.exe              0x0000000000291320 USERDOMAIN                     victim-PC
+    1896 dwm.exe              0x0000000000291320 USERNAME                       victim
+    1896 dwm.exe              0x0000000000291320 USERPROFILE                    C:\Users\victim
+    1896 dwm.exe              0x0000000000291320 windir                         C:\Windows
+    1896 dwm.exe              0x0000000000291320 windows_tracing_flags          3
+    1896 dwm.exe              0x0000000000291320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1600 VBoxTray.exe         0x00000000002e1320 ALLUSERSPROFILE                C:\ProgramData
+    1600 VBoxTray.exe         0x00000000002e1320 APPDATA                        C:\Users\victim\AppData\Roaming
+    1600 VBoxTray.exe         0x00000000002e1320 CommonProgramFiles             C:\Program Files\Common Files
+    1600 VBoxTray.exe         0x00000000002e1320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1600 VBoxTray.exe         0x00000000002e1320 CommonProgramW6432             C:\Program Files\Common Files
+    1600 VBoxTray.exe         0x00000000002e1320 COMPUTERNAME                   VICTIM-PC
+    1600 VBoxTray.exe         0x00000000002e1320 ComSpec                        C:\Windows\system32\cmd.exe
+    1600 VBoxTray.exe         0x00000000002e1320 FP_NO_HOST_CHECK               NO
+    1600 VBoxTray.exe         0x00000000002e1320 HOMEDRIVE                      C:
+    1600 VBoxTray.exe         0x00000000002e1320 HOMEPATH                       \Users\victim
+    1600 VBoxTray.exe         0x00000000002e1320 LOCALAPPDATA                   C:\Users\victim\AppData\Local
+    1600 VBoxTray.exe         0x00000000002e1320 LOGONSERVER                    \\VICTIM-PC
+    1600 VBoxTray.exe         0x00000000002e1320 NUMBER_OF_PROCESSORS           1
+    1600 VBoxTray.exe         0x00000000002e1320 OS                             Windows_NT
+    1600 VBoxTray.exe         0x00000000002e1320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1600 VBoxTray.exe         0x00000000002e1320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1600 VBoxTray.exe         0x00000000002e1320 PROCESSOR_ARCHITECTURE         AMD64
+    1600 VBoxTray.exe         0x00000000002e1320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1600 VBoxTray.exe         0x00000000002e1320 PROCESSOR_LEVEL                6
+    1600 VBoxTray.exe         0x00000000002e1320 PROCESSOR_REVISION             2a07
+    1600 VBoxTray.exe         0x00000000002e1320 ProgramData                    C:\ProgramData
+    1600 VBoxTray.exe         0x00000000002e1320 ProgramFiles                   C:\Program Files
+    1600 VBoxTray.exe         0x00000000002e1320 ProgramFiles(x86)              C:\Program Files (x86)
+    1600 VBoxTray.exe         0x00000000002e1320 ProgramW6432                   C:\Program Files
+    1600 VBoxTray.exe         0x00000000002e1320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1600 VBoxTray.exe         0x00000000002e1320 PUBLIC                         C:\Users\Public
+    1600 VBoxTray.exe         0x00000000002e1320 SESSIONNAME                    Console
+    1600 VBoxTray.exe         0x00000000002e1320 SystemDrive                    C:
+    1600 VBoxTray.exe         0x00000000002e1320 SystemRoot                     C:\Windows
+    1600 VBoxTray.exe         0x00000000002e1320 TEMP                           C:\Users\victim\AppData\Local\Temp
+    1600 VBoxTray.exe         0x00000000002e1320 TMP                            C:\Users\victim\AppData\Local\Temp
+    1600 VBoxTray.exe         0x00000000002e1320 USERDOMAIN                     victim-PC
+    1600 VBoxTray.exe         0x00000000002e1320 USERNAME                       victim
+    1600 VBoxTray.exe         0x00000000002e1320 USERPROFILE                    C:\Users\victim
+    1600 VBoxTray.exe         0x00000000002e1320 windir                         C:\Windows
+    1600 VBoxTray.exe         0x00000000002e1320 windows_tracing_flags          3
+    1600 VBoxTray.exe         0x00000000002e1320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2180 SearchIndexer.       0x000000000039b5c0 ALLUSERSPROFILE                C:\ProgramData
+    2180 SearchIndexer.       0x000000000039b5c0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2180 SearchIndexer.       0x000000000039b5c0 CommonProgramFiles             C:\Program Files\Common Files
+    2180 SearchIndexer.       0x000000000039b5c0 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    2180 SearchIndexer.       0x000000000039b5c0 CommonProgramW6432             C:\Program Files\Common Files
+    2180 SearchIndexer.       0x000000000039b5c0 COMPUTERNAME                   VICTIM-PC
+    2180 SearchIndexer.       0x000000000039b5c0 ComSpec                        C:\Windows\system32\cmd.exe
+    2180 SearchIndexer.       0x000000000039b5c0 FP_NO_HOST_CHECK               NO
+    2180 SearchIndexer.       0x000000000039b5c0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2180 SearchIndexer.       0x000000000039b5c0 NUMBER_OF_PROCESSORS           1
+    2180 SearchIndexer.       0x000000000039b5c0 OS                             Windows_NT
+    2180 SearchIndexer.       0x000000000039b5c0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32
+    2180 SearchIndexer.       0x000000000039b5c0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2180 SearchIndexer.       0x000000000039b5c0 PROCESSOR_ARCHITECTURE         AMD64
+    2180 SearchIndexer.       0x000000000039b5c0 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    2180 SearchIndexer.       0x000000000039b5c0 PROCESSOR_LEVEL                6
+    2180 SearchIndexer.       0x000000000039b5c0 PROCESSOR_REVISION             2a07
+    2180 SearchIndexer.       0x000000000039b5c0 ProgramData                    C:\ProgramData
+    2180 SearchIndexer.       0x000000000039b5c0 ProgramFiles                   C:\Program Files
+    2180 SearchIndexer.       0x000000000039b5c0 ProgramFiles(x86)              C:\Program Files (x86)
+    2180 SearchIndexer.       0x000000000039b5c0 ProgramW6432                   C:\Program Files
+    2180 SearchIndexer.       0x000000000039b5c0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2180 SearchIndexer.       0x000000000039b5c0 PUBLIC                         C:\Users\Public
+    2180 SearchIndexer.       0x000000000039b5c0 SystemDrive                    C:
+    2180 SearchIndexer.       0x000000000039b5c0 SystemRoot                     C:\Windows
+    2180 SearchIndexer.       0x000000000039b5c0 TEMP                           C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc
+    2180 SearchIndexer.       0x000000000039b5c0 TMP                            C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc
+    2180 SearchIndexer.       0x000000000039b5c0 USERDOMAIN                     WORKGROUP
+    2180 SearchIndexer.       0x000000000039b5c0 USERNAME                       VICTIM-PC$
+    2180 SearchIndexer.       0x000000000039b5c0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2180 SearchIndexer.       0x000000000039b5c0 windir                         C:\Windows
+    2180 SearchIndexer.       0x000000000039b5c0 windows_tracing_flags          3
+    2180 SearchIndexer.       0x000000000039b5c0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2876 WmiPrvSE.exe         0x0000000000221320 ALLUSERSPROFILE                C:\ProgramData
+    2876 WmiPrvSE.exe         0x0000000000221320 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2876 WmiPrvSE.exe         0x0000000000221320 CommonProgramFiles             C:\Program Files\Common Files
+    2876 WmiPrvSE.exe         0x0000000000221320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    2876 WmiPrvSE.exe         0x0000000000221320 CommonProgramW6432             C:\Program Files\Common Files
+    2876 WmiPrvSE.exe         0x0000000000221320 COMPUTERNAME                   VICTIM-PC
+    2876 WmiPrvSE.exe         0x0000000000221320 ComSpec                        C:\Windows\system32\cmd.exe
+    2876 WmiPrvSE.exe         0x0000000000221320 FP_NO_HOST_CHECK               NO
+    2876 WmiPrvSE.exe         0x0000000000221320 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2876 WmiPrvSE.exe         0x0000000000221320 NUMBER_OF_PROCESSORS           1
+    2876 WmiPrvSE.exe         0x0000000000221320 OS                             Windows_NT
+    2876 WmiPrvSE.exe         0x0000000000221320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2876 WmiPrvSE.exe         0x0000000000221320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2876 WmiPrvSE.exe         0x0000000000221320 PROCESSOR_ARCHITECTURE         AMD64
+    2876 WmiPrvSE.exe         0x0000000000221320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    2876 WmiPrvSE.exe         0x0000000000221320 PROCESSOR_LEVEL                6
+    2876 WmiPrvSE.exe         0x0000000000221320 PROCESSOR_REVISION             2a07
+    2876 WmiPrvSE.exe         0x0000000000221320 ProgramData                    C:\ProgramData
+    2876 WmiPrvSE.exe         0x0000000000221320 ProgramFiles                   C:\Program Files
+    2876 WmiPrvSE.exe         0x0000000000221320 ProgramFiles(x86)              C:\Program Files (x86)
+    2876 WmiPrvSE.exe         0x0000000000221320 ProgramW6432                   C:\Program Files
+    2876 WmiPrvSE.exe         0x0000000000221320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2876 WmiPrvSE.exe         0x0000000000221320 PUBLIC                         C:\Users\Public
+    2876 WmiPrvSE.exe         0x0000000000221320 SystemDrive                    C:
+    2876 WmiPrvSE.exe         0x0000000000221320 SystemRoot                     C:\Windows
+    2876 WmiPrvSE.exe         0x0000000000221320 TEMP                           C:\Windows\TEMP
+    2876 WmiPrvSE.exe         0x0000000000221320 TMP                            C:\Windows\TEMP
+    2876 WmiPrvSE.exe         0x0000000000221320 USERDOMAIN                     WORKGROUP
+    2876 WmiPrvSE.exe         0x0000000000221320 USERNAME                       VICTIM-PC$
+    2876 WmiPrvSE.exe         0x0000000000221320 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2876 WmiPrvSE.exe         0x0000000000221320 windir                         C:\Windows
+    2876 WmiPrvSE.exe         0x0000000000221320 windows_tracing_flags          3
+    2876 WmiPrvSE.exe         0x0000000000221320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1820 svchost.exe          0x000000000024c850 ALLUSERSPROFILE                C:\ProgramData
+    1820 svchost.exe          0x000000000024c850 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    1820 svchost.exe          0x000000000024c850 CommonProgramFiles             C:\Program Files\Common Files
+    1820 svchost.exe          0x000000000024c850 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1820 svchost.exe          0x000000000024c850 CommonProgramW6432             C:\Program Files\Common Files
+    1820 svchost.exe          0x000000000024c850 COMPUTERNAME                   VICTIM-PC
+    1820 svchost.exe          0x000000000024c850 ComSpec                        C:\Windows\system32\cmd.exe
+    1820 svchost.exe          0x000000000024c850 FP_NO_HOST_CHECK               NO
+    1820 svchost.exe          0x000000000024c850 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    1820 svchost.exe          0x000000000024c850 MpConfig_ProductAppDataPath    C:\ProgramData\Microsoft\Windows Defender
+    1820 svchost.exe          0x000000000024c850 MpConfig_ProductCodeName       AntiSpyware
+    1820 svchost.exe          0x000000000024c850 MpConfig_ProductPath           c:\program files\windows defender
+    1820 svchost.exe          0x000000000024c850 MpConfig_Produ...erAppDataPath C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\Windows Defender
+    1820 svchost.exe          0x000000000024c850 MpConfig_ReportingGUID         83B6FA56-BEE5-458E-9BAF-D7098D4955CB
+    1820 svchost.exe          0x000000000024c850 NUMBER_OF_PROCESSORS           1
+    1820 svchost.exe          0x000000000024c850 OS                             Windows_NT
+    1820 svchost.exe          0x000000000024c850 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1820 svchost.exe          0x000000000024c850 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1820 svchost.exe          0x000000000024c850 PROCESSOR_ARCHITECTURE         AMD64
+    1820 svchost.exe          0x000000000024c850 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1820 svchost.exe          0x000000000024c850 PROCESSOR_LEVEL                6
+    1820 svchost.exe          0x000000000024c850 PROCESSOR_REVISION             2a07
+    1820 svchost.exe          0x000000000024c850 ProgramData                    C:\ProgramData
+    1820 svchost.exe          0x000000000024c850 ProgramFiles                   C:\Program Files
+    1820 svchost.exe          0x000000000024c850 ProgramFiles(x86)              C:\Program Files (x86)
+    1820 svchost.exe          0x000000000024c850 ProgramW6432                   C:\Program Files
+    1820 svchost.exe          0x000000000024c850 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1820 svchost.exe          0x000000000024c850 PUBLIC                         C:\Users\Public
+    1820 svchost.exe          0x000000000024c850 SystemDrive                    C:
+    1820 svchost.exe          0x000000000024c850 SystemRoot                     C:\Windows
+    1820 svchost.exe          0x000000000024c850 TEMP                           C:\Windows\TEMP
+    1820 svchost.exe          0x000000000024c850 TMP                            C:\Windows\TEMP
+    1820 svchost.exe          0x000000000024c850 USERDOMAIN                     WORKGROUP
+    1820 svchost.exe          0x000000000024c850 USERNAME                       VICTIM-PC$
+    1820 svchost.exe          0x000000000024c850 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    1820 svchost.exe          0x000000000024c850 windir                         C:\Windows
+    1820 svchost.exe          0x000000000024c850 windows_tracing_flags          3
+    1820 svchost.exe          0x000000000024c850 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2464 wmpnetwk.exe         0x00000000002c47a0 ALLUSERSPROFILE                C:\ProgramData
+    2464 wmpnetwk.exe         0x00000000002c47a0 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+    2464 wmpnetwk.exe         0x00000000002c47a0 CommonProgramFiles             C:\Program Files\Common Files
+    2464 wmpnetwk.exe         0x00000000002c47a0 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    2464 wmpnetwk.exe         0x00000000002c47a0 CommonProgramW6432             C:\Program Files\Common Files
+    2464 wmpnetwk.exe         0x00000000002c47a0 COMPUTERNAME                   VICTIM-PC
+    2464 wmpnetwk.exe         0x00000000002c47a0 ComSpec                        C:\Windows\system32\cmd.exe
+    2464 wmpnetwk.exe         0x00000000002c47a0 FP_NO_HOST_CHECK               NO
+    2464 wmpnetwk.exe         0x00000000002c47a0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+    2464 wmpnetwk.exe         0x00000000002c47a0 NUMBER_OF_PROCESSORS           1
+    2464 wmpnetwk.exe         0x00000000002c47a0 OANOCACHE                      1
+    2464 wmpnetwk.exe         0x00000000002c47a0 OS                             Windows_NT
+    2464 wmpnetwk.exe         0x00000000002c47a0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2464 wmpnetwk.exe         0x00000000002c47a0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2464 wmpnetwk.exe         0x00000000002c47a0 PROCESSOR_ARCHITECTURE         AMD64
+    2464 wmpnetwk.exe         0x00000000002c47a0 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    2464 wmpnetwk.exe         0x00000000002c47a0 PROCESSOR_LEVEL                6
+    2464 wmpnetwk.exe         0x00000000002c47a0 PROCESSOR_REVISION             2a07
+    2464 wmpnetwk.exe         0x00000000002c47a0 ProgramData                    C:\ProgramData
+    2464 wmpnetwk.exe         0x00000000002c47a0 ProgramFiles                   C:\Program Files
+    2464 wmpnetwk.exe         0x00000000002c47a0 ProgramFiles(x86)              C:\Program Files (x86)
+    2464 wmpnetwk.exe         0x00000000002c47a0 ProgramW6432                   C:\Program Files
+    2464 wmpnetwk.exe         0x00000000002c47a0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2464 wmpnetwk.exe         0x00000000002c47a0 PUBLIC                         C:\Users\Public
+    2464 wmpnetwk.exe         0x00000000002c47a0 SystemDrive                    C:
+    2464 wmpnetwk.exe         0x00000000002c47a0 SystemRoot                     C:\Windows
+    2464 wmpnetwk.exe         0x00000000002c47a0 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    2464 wmpnetwk.exe         0x00000000002c47a0 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    2464 wmpnetwk.exe         0x00000000002c47a0 USERDOMAIN                     WORKGROUP
+    2464 wmpnetwk.exe         0x00000000002c47a0 USERNAME                       VICTIM-PC$
+    2464 wmpnetwk.exe         0x00000000002c47a0 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+    2464 wmpnetwk.exe         0x00000000002c47a0 windir                         C:\Windows
+    2464 wmpnetwk.exe         0x00000000002c47a0 windows_tracing_flags          3
+    2464 wmpnetwk.exe         0x00000000002c47a0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1148 taskhost.exe         0x0000000000181320 ALLUSERSPROFILE                C:\ProgramData
+    1148 taskhost.exe         0x0000000000181320 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    1148 taskhost.exe         0x0000000000181320 CommonProgramFiles             C:\Program Files\Common Files
+    1148 taskhost.exe         0x0000000000181320 CommonProgramFiles(x86)        C:\Program Files (x86)\Common Files
+    1148 taskhost.exe         0x0000000000181320 CommonProgramW6432             C:\Program Files\Common Files
+    1148 taskhost.exe         0x0000000000181320 COMPUTERNAME                   VICTIM-PC
+    1148 taskhost.exe         0x0000000000181320 ComSpec                        C:\Windows\system32\cmd.exe
+    1148 taskhost.exe         0x0000000000181320 FP_NO_HOST_CHECK               NO
+    1148 taskhost.exe         0x0000000000181320 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    1148 taskhost.exe         0x0000000000181320 NUMBER_OF_PROCESSORS           1
+    1148 taskhost.exe         0x0000000000181320 OS                             Windows_NT
+    1148 taskhost.exe         0x0000000000181320 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1148 taskhost.exe         0x0000000000181320 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1148 taskhost.exe         0x0000000000181320 PROCESSOR_ARCHITECTURE         AMD64
+    1148 taskhost.exe         0x0000000000181320 PROCESSOR_IDENTIFIER           Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+    1148 taskhost.exe         0x0000000000181320 PROCESSOR_LEVEL                6
+    1148 taskhost.exe         0x0000000000181320 PROCESSOR_REVISION             2a07
+    1148 taskhost.exe         0x0000000000181320 ProgramData                    C:\ProgramData
+    1148 taskhost.exe         0x0000000000181320 ProgramFiles                   C:\Program Files
+    1148 taskhost.exe         0x0000000000181320 ProgramFiles(x86)              C:\Program Files (x86)
+    1148 taskhost.exe         0x0000000000181320 ProgramW6432                   C:\Program Files
+    1148 taskhost.exe         0x0000000000181320 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1148 taskhost.exe         0x0000000000181320 PUBLIC                         C:\Users\Public
+    1148 taskhost.exe         0x0000000000181320 SystemDrive                    C:
+    1148 taskhost.exe         0x0000000000181320 SystemRoot                     C:\Windows
+    1148 taskhost.exe         0x0000000000181320 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1148 taskhost.exe         0x0000000000181320 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1148 taskhost.exe         0x0000000000181320 USERDOMAIN                     NT AUTHORITY
+    1148 taskhost.exe         0x0000000000181320 USERNAME                       LOCAL SERVICE
+    1148 taskhost.exe         0x0000000000181320 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    1148 taskhost.exe         0x0000000000181320 windir                         C:\Windows
+    1148 taskhost.exe         0x0000000000181320 windows_tracing_flags          3
+    1148 taskhost.exe         0x0000000000181320 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log

@@ -1,0 +1,49 @@
+Handle: 0x2006d, Object: 0xfffff900c1b96630, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1860, Process: 1860
+eventMin: 0x80000002 Unknown choice 2147483650
+eventMax: 0x80000003 Unknown choice 2147483651
+Flags: WINEVENT_INCONTEXT, offPfn: 0x3fb8, idProcess: 0, idThread: 1860
+ihmod: 1
+
+Handle: 0x20073, Object: 0xfffff900c1b38360, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1788, Process: 1788
+eventMin: 0x80000002 Unknown choice 2147483650
+eventMax: 0x80000003 Unknown choice 2147483651
+Flags: , offPfn: 0x7feffb22e70, idProcess: 0, idThread: 0
+ihmod: -1
+
+Handle: 0x10086, Object: 0xfffff900c1b36100, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1860, Process: 1860
+eventMin: 0x4 EVENT_SYSTEM_MENUSTART
+eventMax: 0x7 EVENT_SYSTEM_MENUPOPUPEND
+Flags: , offPfn: 0xffa58248, idProcess: 0, idThread: 0
+ihmod: -1
+
+Handle: 0xb008b, Object: 0xfffff900c1f32260, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1860, Process: 1860
+eventMin: 0x80000002 Unknown choice 2147483650
+eventMax: 0x80000003 Unknown choice 2147483651
+Flags: WINEVENT_INCONTEXT, offPfn: 0x3fb8, idProcess: 0, idThread: 1860
+ihmod: 1
+
+Handle: 0x3011d, Object: 0xfffff900c1f3e260, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1600, Process: 1600
+eventMin: 0x20 EVENT_SYSTEM_DESKTOPSWITCH
+eventMax: 0x20 EVENT_SYSTEM_DESKTOPSWITCH
+Flags: , offPfn: 0x7fef67f1090, idProcess: 0, idThread: 0
+ihmod: -1
+
+Handle: 0x10137, Object: 0xfffff900c1fa1470, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1860, Process: 1860
+eventMin: 0x20 EVENT_SYSTEM_DESKTOPSWITCH
+eventMax: 0x20 EVENT_SYSTEM_DESKTOPSWITCH
+Flags: , offPfn: 0x7fef5d42fd4, idProcess: 0, idThread: 0
+ihmod: -1
+
+Handle: 0x40165, Object: 0xfffff900c1b1da00, Session: 1
+Type: TYPE_WINEVENTHOOK, Flags: 0, Thread: 1860, Process: 1860
+eventMin: 0x80000002 Unknown choice 2147483650
+eventMax: 0x80000003 Unknown choice 2147483651
+Flags: , offPfn: 0x7feffb22e70, idProcess: 0, idThread: 0
+ihmod: -1
+

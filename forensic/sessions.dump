@@ -1,0 +1,39 @@
+**************************************************
+Session(V): fffff880042ac000 ID: 0 Processes: 21
+PagedPoolStart: fffff900c0000000 PagedPoolEnd fffff920bfffffff
+ Process: 360 csrss.exe 2019-05-03 06:32:34 UTC+0000
+ Process: 416 wininit.exe 2019-05-03 06:32:35 UTC+0000
+ Process: 504 services.exe 2019-05-03 06:32:36 UTC+0000
+ Process: 512 lsass.exe 2019-05-03 06:32:37 UTC+0000
+ Process: 520 lsm.exe 2019-05-03 06:32:37 UTC+0000
+ Process: 628 svchost.exe 2019-05-03 06:32:48 UTC+0000
+ Process: 688 VBoxService.ex 2019-05-03 06:32:48 UTC+0000
+ Process: 752 svchost.exe 2019-05-02 18:02:51 UTC+0000
+ Process: 852 svchost.exe 2019-05-02 18:02:51 UTC+0000
+ Process: 892 svchost.exe 2019-05-02 18:02:51 UTC+0000
+ Process: 920 svchost.exe 2019-05-02 18:02:51 UTC+0000
+ Process: 400 svchost.exe 2019-05-02 18:02:56 UTC+0000
+ Process: 1004 svchost.exe 2019-05-02 18:02:56 UTC+0000
+ Process: 1140 spoolsv.exe 2019-05-02 18:02:57 UTC+0000
+ Process: 1268 svchost.exe 2019-05-02 18:02:59 UTC+0000
+ Process: 1368 svchost.exe 2019-05-02 18:02:59 UTC+0000
+ Process: 2180 SearchIndexer. 2019-05-02 18:03:32 UTC+0000
+ Process: 2876 WmiPrvSE.exe 2019-05-02 18:03:55 UTC+0000
+ Process: 1820 svchost.exe 2019-05-02 18:05:09 UTC+0000
+ Process: 2464 wmpnetwk.exe 2019-05-02 18:05:10 UTC+0000
+ Process: 1148 taskhost.exe 2019-05-02 18:09:58 UTC+0000
+ Image: 0xfffffa8002a98b50, Address fffff960000e0000, Name: win32k.sys
+ Image: 0xfffffa80027cd310, Address fffff960004c0000, Name: dxg.sys
+ Image: 0xfffffa80027cd2c0, Address fffff96000790000, Name: TSDDD.dll
+**************************************************
+Session(V): fffff880042d4000 ID: 1 Processes: 6
+PagedPoolStart: fffff900c0000000 PagedPoolEnd fffff920bfffffff
+ Process: 408 csrss.exe 2019-05-03 06:32:35 UTC+0000
+ Process: 444 winlogon.exe 2019-05-03 06:32:35 UTC+0000
+ Process: 1788 taskhost.exe 2019-05-02 18:03:09 UTC+0000
+ Process: 1860 explorer.exe 2019-05-02 18:03:09 UTC+0000
+ Process: 1896 dwm.exe 2019-05-02 18:03:09 UTC+0000
+ Process: 1600 VBoxTray.exe 2019-05-02 18:03:25 UTC+0000
+ Image: 0xfffffa8001255540, Address fffff960000e0000, Name: win32k.sys
+ Image: 0xfffffa8002b5f6a0, Address fffff960004c0000, Name: dxg.sys
+ Image: 0xfffffa8002a68d70, Address fffff96000820000, Name: VBoxDisp.dll

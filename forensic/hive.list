@@ -1,0 +1,15 @@
+Virtual            Physical           Name
+------------------ ------------------ ----
+0xfffff8a00000f010 0x000000000ca19010 [no name]
+0xfffff8a000024010 0x000000000c9e4010 \REGISTRY\MACHINE\SYSTEM
+0xfffff8a00004e1f0 0x000000000c94e1f0 \REGISTRY\MACHINE\HARDWARE
+0xfffff8a00078b010 0x000000000a245010 \SystemRoot\System32\Config\SOFTWARE
+0xfffff8a000a91010 0x0000000056824010 \SystemRoot\System32\Config\SECURITY
+0xfffff8a000afd010 0x00000000565f9010 \SystemRoot\System32\Config\SAM
+0xfffff8a000b2e410 0x0000000054507410 \??\C:\Windows\ServiceProfiles\NetworkService\NTUSER.DAT
+0xfffff8a000c28010 0x00000000535cf010 \??\C:\Windows\ServiceProfiles\LocalService\NTUSER.DAT
+0xfffff8a000fe7010 0x000000004a8a5010 \??\C:\Users\victim\ntuser.dat
+0xfffff8a00104e010 0x000000004a125010 \??\C:\Users\victim\AppData\Local\Microsoft\Windows\UsrClass.dat
+0xfffff8a002044010 0x00000000080cc010 \??\C:\System Volume Information\Syscache.hve
+0xfffff8a003b4e410 0x0000000059cfc410 \SystemRoot\System32\Config\DEFAULT
+0xfffff8a0051bf010 0x0000000005643010 \Device\HarddiskVolume1\Boot\BCD
