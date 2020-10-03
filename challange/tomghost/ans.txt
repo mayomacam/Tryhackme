@@ -1,0 +1,102 @@
+start with nmap
+
+tomghost exploit
+
+got creds
+
+================================================================================
+
+# user
+
+###### so ssh it.
+
+###### no sudo.
+```
+skyfuck@ubuntu:~$ sudo -l
+[sudo] password for skyfuck: 
+Sorry, user skyfuck may not run sudo on ubuntu.
+```
+
+##### so let's check files.
+
+##### got some keys.
+
+##### let's check users.
+
+##### merlin is second user. let's check if we see files.
+
+##### we can read flag here. got user flag.
+
+================================================================================
+
+# Second User
+
+##### got interresting on skyfuck home folde.
+
+##### in history i got
+```
+wget 192.168.32.23/tryhackme.asc
+wget 192.168.32.23/credential.pgp
+```
+
+##### and some pgp and asc keys.
+
+##### using gpg2john to convert it to hash and then use john to decrypt it.
+```
+┌─[mayomacam@parrot]─[~/tryhackme/challange/tomghost]
+└──╼ $sudo john --format=gpg hash --wordlist=/usr/share/wordlists/rockyou.txt
+[sudo] password for mayomacam: 
+Using default input encoding: UTF-8
+Loaded 1 password hash (gpg, OpenPGP / GnuPG Secret Key [32/64])
+Cost 1 (s2k-count) is 65536 for all loaded hashes
+Cost 2 (hash algorithm [1:MD5 2:SHA1 3:RIPEMD160 8:SHA256 9:SHA384 10:SHA512 11:SHA224]) is 2 for all loaded hashes
+Cost 3 (cipher algorithm [1:IDEA 2:3DES 3:CAST5 4:Blowfish 7:AES128 8:AES192 9:AES256 10:Twofish 11:Camellia128 12:Camellia192 13:Camellia256]) is 9 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+alexandru        (tryhackme)
+1g 0:00:00:00 DONE (2020-08-29 06:28) 1.538g/s 1649p/s 1649c/s 1649C/s theresa..alexandru
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+┌─[mayomacam@parr
+
+
+```
+
+##### got password , let's import and decrypt other files.
+```
+┌─[mayomacam@parrot]─[~/tryhackme/challange/tomghost]
+└──╼ $gpg --import tryhackme.asc 
+gpg: WARNING: unsafe permissions on homedir '/home/mayomacam/.gnupg'
+gpg: key 8F3DA3DEC6707170: public key "tryhackme <stuxnet@tryhackme.com>" imported
+gpg: key 8F3DA3DEC6707170: secret key imported
+gpg: key 8F3DA3DEC6707170: "tryhackme <stuxnet@tryhackme.com>" not changed
+gpg: Total number processed: 2
+gpg:               imported: 1
+gpg:              unchanged: 1
+gpg:       secret keys read: 1
+gpg:   secret keys imported: 1
+
+```
+
+##### now let's what inside file.
+```
+┌─[mayomacam@parrot]─[~/tryhackme/challange/tomghost]
+└──╼ $gpg --decrypt credential.pgp 
+gpg: WARNING: unsafe permissions on homedir '/home/mayomacam/.gnupg'
+gpg: WARNING: cipher algorithm CAST5 not found in recipient preferences
+gpg: encrypted with 1024-bit ELG key, ID 61E104A66184FBCC, created 2020-03-11
+      "tryhackme <stuxnet@tryhackme.com>"
+merlin:asuyusdoiuqoilkda312j31k2j123j1g23g12k3g12kj3gk12jg3k12j3kj123j
+```
+
+##### got new creds . let's login. got loggin.
+================================================================================
+
+# Root
+
+##### got permission to run zip as root.
+
+##### with gftobins let's abuse it.
+
+##### got shell as root. and got flag.
+
