@@ -1,0 +1,31 @@
+start by downloading image...
+
+found by exiftool
+
+password=admin
+
+using password and stegohide got 1 key.
+key: superkeykey
+
+=======
+after submit on second page got wav file
+with spectogram we got
+
+https://imgur.com/KTrtNI5
+
+and image....
+
+using zsteg we got second key
+
+Key: fatality
+
+
+========
+
+got qr image
+
+using gimp make it readble
+
+got key
+
+http://key=killshot
