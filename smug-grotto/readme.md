@@ -64,13 +64,13 @@ let's add it to hosts file for access using domain name.
 
 got index.
 now let's see login.php
-![dev](./login.php)
+![dev](./login.png)
 
 when we click on admin we redirect to login.php
 now let's login.
 
 after login got admin.php.
-![admin](./admin.php)
+![admin](./admin.png)
 
 let's see what commands we can run.
 
