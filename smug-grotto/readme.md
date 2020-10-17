@@ -27,22 +27,22 @@ Nmap done: 1 IP address (1 host up) scanned in 72.36 seconds
 ```
 ## port80
 
-[80](./port80.png)
+![80](./port80.png)
 
 ### mail
 
-[mail](./mail.png)
+![mail](./mail.png)
 
 in page source i got a bcc.
-[bcc](./bcc.png)
+![bcc](./bcc.png)
 
 in mail "Note: all attachments must be downloaded with wget." this tell many thing. As name suggest we have to analyze pcap file which we can see dHJhY2Uy.pcap.
 
 so i use wget to download pcap file.
-[pcap](./pcap.png)
+![pcap](./pcap.png)
 
 Let's analyze pcap file.
-[pcap](./user.png)
+![pcap](./user.png)
 
 
 got creds..
@@ -53,72 +53,72 @@ password= cH4nG3M3_n0w
 
 ## /login
 there is a login let's login now using creds.
-[login](./login1.png)
+![login](./login1.png)
 
 but there is no login page. let's again check mail and pcap.
 
 ### development.smag.thm
 and got second domain development.smag.thm .
 let's add it to hosts file for access using domain name.
-[dev](./dev.png)
+![dev](./dev.png)
 
 got index.
 now let's see login.php
-[dev](./login.php)
+![dev](./login.php)
 
 when we click on admin we redirect to login.php
 now let's login.
 
 after login got admin.php.
-[admin](./admin.php)
+![admin](./admin.php)
 
 let's see what commands we can run.
 
 ### admin.php
 
 we can run commands but can't see output. so i try to upload reverse shell.
-[upload](./got-upload.png)
+![upload](./got-upload.png)
 
 shell was uploaded but can't find it.
 now left is to run reverse shell command directly.
-[reverse](./reverse.png)
+![reverse](./reverse.png)
 
 got shell.
-[shell](./shell.png)
+![shell](./shell.png)
 
 # user
 
 ## linenum
 
 using linenum i got crontab where id_rsa file being copied into jake .ssh folder.
-[crontab](./crontab.png)
+![crontab](./crontab.png)
 
 ## id-rsa
 got jake id_rsa.pub file.
-[id](./jake-id-rsa.png)
+![id](./jake-id-rsa.png)
 
 we have permission to write that file.
-[permission](./permi.png)
+![permission](./permi.png)
 
 let's set it to our key.
 after changeing key to our key. we got ssh into jake.
-[ssh](./ssh.png)
+![ssh](./ssh.png)
 
 and user.txt.
 
 # root
 
 ## history
-[hisory](./history.png)
+![hisory](./history.png)
 
 
 ## root flag
 let's try to get root shell. 
 we check for sudo permission we have as jake.
-[root1](./jake-root.png)
+![root1](./jake-root.png)
 
 from gftobins we tried all three of them last one work and we got our shell.
-[root](./root1.png)
+![root](./root1.png)
 
 
 # bonus
@@ -126,7 +126,7 @@ from gftobins we tried all three of them last one work and we got our shell.
 ## root flag 
 
 in history i see some file edits so i check .viminfo file for history of vim. and got user and root both flag in one place.
-[root](./root.png)
+![root](./root.png)
 
 
 
