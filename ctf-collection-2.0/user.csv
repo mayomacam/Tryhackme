@@ -1,0 +1,7 @@
+Host,User,plugin,Password,ssl_type,Drop_priv,File_priv,Alter_priv,Event_priv,Grant_priv,Index_priv,Super_priv,ssl_cipher,Create_priv,Delete_priv,Insert_priv,Reload_priv,Select_priv,Update_priv,max_updates,x509_issuer,Execute_priv,Process_priv,Show_db_priv,Trigger_priv,x509_subject,Shutdown_priv,max_questions,Show_view_priv,References_priv,Repl_slave_priv,max_connections,Create_user_priv,Create_view_priv,Lock_tables_priv,Repl_client_priv,Alter_routine_priv,Create_routine_priv,max_user_connections,Create_tmp_table_priv,authentication_string,Create_tablespace_priv
+127.0.0.1,root,<blank>,*3D2B651C3F5645B345383277F75F1576837A7610,<blank>,Y,Y,Y,Y,Y,Y,Y,<blank>,Y,Y,Y,Y,Y,Y,0,<blank>,Y,Y,Y,Y,<blank>,Y,0,Y,Y,Y,0,Y,Y,Y,Y,Y,Y,0,Y,<blank>,Y
+::1,root,<blank>,*3D2B651C3F5645B345383277F75F1576837A7610,<blank>,Y,Y,Y,Y,Y,Y,Y,<blank>,Y,Y,Y,Y,Y,Y,0,<blank>,Y,Y,Y,Y,<blank>,Y,0,Y,Y,Y,0,Y,Y,Y,Y,Y,Y,0,Y,<blank>,Y
+localhost,debian-sys-maint,<blank>,*3D2B651C3F5645B345383277F75F1576837A7610,<blank>,Y,Y,Y,Y,Y,Y,Y,<blank>,Y,Y,Y,Y,Y,Y,0,<blank>,Y,Y,Y,Y,<blank>,Y,0,Y,Y,Y,0,Y,Y,Y,Y,Y,Y,0,Y,<blank>,Y
+localhost,root,<blank>,*A49F9F8A370816346E82C8DA0648EFAF13D8390E,<blank>,Y,Y,Y,Y,Y,Y,Y,<blank>,Y,Y,Y,Y,Y,Y,0,<blank>,Y,Y,Y,Y,<blank>,Y,0,Y,Y,Y,0,Y,Y,Y,Y,Y,Y,0,Y,NULL,N
+ubuntu,root,<blank>,*3D2B651C3F5645B345383277F75F1576837A7610,<blank>,Y,Y,Y,Y,Y,Y,Y,<blank>,Y,Y,Y,Y,Y,Y,0,<blank>,Y,Y,Y,Y,<blank>,Y,0,Y,Y,Y,0,Y,Y,Y,Y,Y,Y,0,Y,<blank>,Y
+
