@@ -50,7 +50,7 @@ Disallow: /VlNCcElFSWdTQ0JKSUVZZ1dTQm5JR1VnYVNCQ0lGUWdTU0JFSUVrZ1p5QldJR2tnUWlCN
 ```
 first i go with Disallow:
 with cyberchef and base64 4 iteration we decrypt it...
-[](./robots1.png)
+[](robots1.png)
 ```
 DesKel_secret_base
 ```
