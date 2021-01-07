@@ -50,7 +50,7 @@ Disallow: /VlNCcElFSWdTQ0JKSUVZZ1dTQm5JR1VnYVNCQ0lGUWdTU0JFSUVrZ1p5QldJR2tnUWlCN
 ```
 first i go with Disallow:
 with cyberchef and base64 4 iteration we decrypt it...
-[](robots1.png)
+![](./robots1.png)
 ```
 DesKel_secret_base
 ```
@@ -62,7 +62,7 @@ from finding hex hash in robots.txt upon decrypting...
 45 61 73 74 65 72 20 31 3a 20 54 48 4d 7b 34 75 37 30 62 30 37 5f 72 30 6c 6c 5f 30 75 37 7d
 ```
 by using cyberchef...
-[](./easter1.png)
+![](./easter1.png)
 
 and got easter egg 1
 ```
@@ -72,9 +72,9 @@ Easter 1: THM{--------------}
 # easter2
 When i visit disallow entry DesKel_secret_base
 i got 
-[](./dis.png)
+![](./dis.png)
 and when i view it's source...
-[](./dis2.png)
+![](./dis2.png)
 and i got easter egg 2
 ```
 Easter 2: THM{----------}
@@ -82,10 +82,10 @@ Easter 2: THM{----------}
 
 # easter 3
 When i go to see login page ...
-[](./login.png)
+![](./login.png)
 it's title is quite interesting..
 so i look for source page i got
-[](./login2.png)
+![](./login2.png)
 and got easter egg 3
 ```
 <p hidden>Seriously! You think the php script inside the source code? Pfff.. take this easter 3: THM{-----------}</p> 
@@ -93,7 +93,7 @@ and got easter egg 3
 
 # easter 4
 when i try to login here... with creds from index page..
-[](./login1.png)
+![](./login1.png)
 let's try sql injection here...
 and we know username is right only password is problem...
 so let's use payloads for all types of sql injection for determine which type will work...
@@ -175,15 +175,15 @@ Table: nothing_inside
 ```
 got easter egg 4
 ```
-THM{1nj3c7_l1k3_4_b055}
+THM{--------------}
 ```
 
 # easter 5
 Let's decode DesKel password...
 first let's use hash analyzer .
-[](./des.png)
+![](./des.png)
 it's a md5 hash now let's use md5hashing.net
-[](./des2.png)
+![](./des2.png)
 let's login user creds..
 ```
 username = DesKel
@@ -191,7 +191,7 @@ password = *****
 ```
 
 and creds accpted...
-[](./des1.png)
+![](./des1.png)
 and got easter egg 5
 ```
 Easter 5: THM{-------------------------}
@@ -200,7 +200,7 @@ Easter 5: THM{-------------------------}
 
 # easter 6
 i was intercepting all request and reponse in burp and in header i found
-[](./easter6.png)
+![](./easter6.png)
 
 got easter egg 6
 ```
@@ -223,10 +223,10 @@ Cookie: Invited=0
 ```
 
 with this we always get...
-[](./main.png)
+![](./main.png)
 second image who are you?
 but when i update cookie to 1 then...
-[](./welcome.png)
+![](./welcome.png)
 got easter egg 7
 ```
 THM{-------------------} 
@@ -241,13 +241,13 @@ Please buy me one iphone 11....I'm poor, link down below.
 
 You need Safari 13 on iOS 13.1.2 to view this message. If you are rich enough
 ```
-[](./iphone.png)
+![](./iphone.png)
 It's almost like it's saying us too change user agent too safari on ios... so i change my user agent in burp...
 ```
 Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Mobile/15E148 Safari/604.1
 ```
 and also set invited cookie to 1.. and now always gonna make it set...
-[](./iphone2.png)
+![](./iphone2.png)
 i got easter egg 8
 ```
 You are Rich! Subscribe to THM server ^^ now. Oh btw, Easter 8: THM{-----------------------}
@@ -257,15 +257,15 @@ here it's telling us same to set the cookie to invited.. and user agent also...
 
 # easter 9
 In webpage there is a button image for burning world...
-[](./burn.png)
+![](./burn.png)
 when i view source
-[](./burn2.png)
+![](./burn2.png)
 that's interesting...
 So i click the button...
 and i was intercepting request and response with burp ...
-[](./ready.png)
+![](./ready.png)
 and in respone i got
-[](./easter9.png)
+![](./easter9.png)
 
 and got easter egg 9
 ```
@@ -274,11 +274,11 @@ and got easter egg 9
 
 # easter 10
 There is a voucher for tryhackme as it is saying on webpage...
-[](./subs.png)
+![](./subs.png)
 and upon click and going to the page we got
-[](./subs1.png)
+![](./subs1.png)
 this is telling that webpage must be refer from tryhackme to there... so we have to update Referer to tryhackme...
-[](./sub3.png)
+![](./sub3.png)
 and got easter egg 10
 ```
 Nah, there are no voucher here, I'm too poor to buy a new one XD. But i got an egg for you. Easter 10: THM{----------}
@@ -286,7 +286,7 @@ Nah, there are no voucher here, I'm too poor to buy a new one XD. But i got an e
 
 # easter 11
 There is menu let's try it again..
-[](./eater.png)
+![](./eater.png)
 
 when i intercept request and response both with burp. i got
 ```
@@ -298,9 +298,9 @@ DesKel           : How dare you!
 
 all the option at first didn't make any sense but salad response contain egg which is also food and we have to choose a food..
 let's go with that...
-[](./eater3.png)
+![](./eater3.png)
 and in response we got
-[](./eater4.png)
+![](./eater4.png)
 got easter egg 6
 ```
 You found the secret menu, take the easter 11: THM{----------}
@@ -309,7 +309,7 @@ You found the secret menu, take the easter 11: THM{----------}
 
 # easter 12
 It's a ctf so i even check for jquery file....
-[](./query.png)
+![](./query.png)
 i didn't except to find this....
 ```sh
 function ahem()
@@ -325,7 +325,7 @@ function ahem()
 ```
 Only one function even rewrite jquery file...
 str1 is hex value of something...
-[](./easter12.png)
+![](./easter12.png)
 got easter egg 12
 ```
 Easter 12 is THM{------------}
@@ -333,12 +333,12 @@ Easter 12 is THM{------------}
 
 # easter 13
 After easter egg 9 
-[](./ready.png)
+![](./ready.png)
 i got then on next redirection we got 
 i was intercepting response ....
-[](./easter13.png)
+![](./easter13.png)
 and final webpage
-[](./easter13.1.png)
+![](./easter13.1.png)
 
 i got easter egg 13
 ```
@@ -346,31 +346,31 @@ Happy? Take the egg now. Easter 13: THM{--------------}
 ```
 
 # easter 14
-[](./website.png)
+![](./website.png)
 let's view source of oage...
-[](./easter14.png)
+![](./easter14.png)
 
 after saving img tag and data ...
-[](./easter14.1.png)
+![](./easter14.1.png)
 got easter egg 14
 ```
 THM{-------------}
 ```
 
 # easter 15
-[](./game.png)
+![](./game.png)
 In game1 ....
-[](./game0.png)
+![](./game0.png)
 let's try some keyowrd...
-[](./game1.2.png)
+![](./game1.2.png)
 here we can see that it's send a corrosponding value for given value...
 we can make burp to put a-z , A-Z and 0-9 for all chars value...
 for compare here...
 but 
-[](./game1.4.png)
+![](./game1.4.png)
 we have to make run samething one more time to get exact value...
 and we got after 
-[](./game1.1.png)
+![](./game1.1.png)
 and got easter egg 15
 ```
 Good job on completing the puzzle, Easter 15: THM{----------------}
@@ -379,24 +379,24 @@ Good job on completing the puzzle, Easter 15: THM{----------------}
 
 # easter 16
 in game2 ....
-[](./game2.png)
+![](./game2.png)
 when i click on button1 and intercept request in burp...
-[](./game2.1.png)
+![](./game2.1.png)
 when request complete...
-[](./game2.1.1.png)
+![](./game2.1.1.png)
 It's means we have to update query to make it like...
-[](./game2.2.png)
+![](./game2.2.png)
 and in response we got...
-[](./response2.3.png)
+![](./response2.3.png)
 and got easter egg 16
 ```
 Just temper the code and you are good to go. Easter 16: THM{---------------------}
 ```
 
 # easter 17
-[](./rainbow.png)
+![](./rainbow.png)
 upon viewing source code we got
-[](./catz.png)
+![](./catz.png)
 
 and there is this function
 ```
@@ -410,9 +410,9 @@ upon click on catz function which must be instead of nyan function we should get
 this is raw binary data...
 so i am using [rapidtables](https://www.rapidtables.com/convert/number/binary-to-decimal.html) ...
 we got 
-[](./hex.png)
+![](./hex.png)
 and using hex value with cyberchef...
-[](./easter17.png)
+![](./easter17.png)
 and got easter egg 17
 ```
 Easter 17: THM{---------------}
@@ -420,12 +420,12 @@ Easter 17: THM{---------------}
 
 # easter 18
 this is line is saying something normally it's meaning less but it's a ctf...
-[](./easter18.png)
+![](./easter18.png)
 so i capture repuest using burp and add a header Egg with value of Yes.
-[](./easter18.2.png)
+![](./easter18.2.png)
 
 and we got
-[](./easter18.1.png)
+![](./easter18.1.png)
 
 got easter egg 18..
 ```
@@ -437,10 +437,10 @@ in one of image of all downloading inage...
 ```
 <img height="2" width="2000" src="small.png"/>
 ```
-[](./small2.png)
+![](./small2.png)
 
 after download we can see
-[](./small.png)
+![](./small.png)
 
 got easter egg 19..
 ```
@@ -449,7 +449,7 @@ THM{--------------}
 
 # easter 20
 In last on webpage...
-[](./easter20.1.png)
+![](./easter20.1.png)
 we got creds
 ```
 username:DesKel, password:heIsDumb
@@ -465,10 +465,11 @@ Content-Length: 33
 username=DesKel&password=heIsDumb
 ```
 and send request using burp..
-[](easter20.png)
+![](easter20.png)
 
 got easter egg 20...
 ```
 Okay, you pass, Easter 20: THM{--------------------}
 ```
-
+# thank you
+![](./thankyou.png)
