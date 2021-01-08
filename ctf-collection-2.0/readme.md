@@ -49,10 +49,10 @@ Disallow: /VlNCcElFSWdTQ0JKSUVZZ1dTQm5JR1VnYVNCQ0lGUWdTU0JFSUVrZ1p5QldJR2tnUWlCN
 45 61 73 74 65 72 20 31 3a 20 54 48 4d 7b 34 75 37 30 62 30 37 5f 72 30 6c 6c 5f 30 75 37 7d
 ```
 first i go with Disallow:
-with cyberchef and base64 4 iteration we decrypt it...
+with cyberchef and base64 we decrypt it...
 ![](./robots1.png)
 ```
-DesKel_secret_base
+************
 ```
 second hex value...
 
